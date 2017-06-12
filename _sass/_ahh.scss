@@ -1,15 +1,12 @@
 // Colors
 
-$cream:   rgb(245, 232, 215);
-$navy:    rgb(6, 15, 90);
-$orange:  rgb(232, 142, 70);
-$green:   rgb(149, 206, 147);
-$pink:    rgb(255, 105, 91);
+$cream:         rgb(245, 232, 215);
+$navy:          rgb(6, 15, 90);
+$orange:        rgb(232, 142, 70);
+$green:         rgb(149, 206, 147);
+$pink:          rgb(255, 105, 91);
 $light-blue:    rgb(108, 194, 179);
-
-
-
-
+$tan-pink:      rgb(234,182,171);
 
 
 html {
@@ -19,6 +16,7 @@ html {
 
 body {
   font-family: "Bianco Sans New", Arial, sans-serif;
+  color: $navy;
 }
 
 h1 {
@@ -27,6 +25,10 @@ font-size: 4rem;
 }
 
 h6 {
+font-size: 1.5rem;
+}
+
+h5 {
 font-size: 2.5rem;
 }
 
@@ -41,17 +43,26 @@ font-size: 8rem;
 
 .bg {
   background-color: gray;
-  color: white;
-}
-
-.bg.orange {
-  background-color: rgb(232, 142, 70);
-  color: white;
-}
-
-.bg.teal {
-  background-color: rgb(169, 227, 180);
-  color: rgb(19, 0, 91);
+  color: $cream;
+  &.orange {
+    background-color: $orange;
+  }
+  &.green {
+    background-color: $green;
+    color: $navy;
+  }
+  &.pink {
+    background-color: $pink;
+    color: $navy;
+  }
+  &.light-blue {
+    background-color: $light-blue;
+    color: $navy;
+  }
+  &.tan-pink {
+    background-color: $tan-pink;
+    color: $navy;
+  }
 }
 
 .p-y {
