@@ -1,0 +1,60 @@
+// Colors
+
+$cream:   rgb(245, 232, 215);
+$navy:    rgb(6, 15, 90);
+$orange:  rgb(232, 142, 70);
+$green:   rgb(149, 206, 147);
+$pink:    rgb(255, 105, 91);
+$light-blue:    rgb(108, 194, 179);
+
+
+
+
+
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "Bianco Sans New", Arial, sans-serif;
+}
+
+h1 {
+font-family: "Bianco Serif New", Times, sans-serif;
+font-size: 4rem;
+}
+
+h6 {
+font-size: 2.5rem;
+}
+
+#top-header {
+  padding: 5rem 1rem 1rem 1rem;
+}
+
+#top-header h1 {
+font-family: "Bianco Serif New", Times, sans-serif;
+font-size: 8rem;
+}
+
+.bg {
+  background-color: gray;
+  color: white;
+}
+
+.bg.orange {
+  background-color: rgb(232, 142, 70);
+  color: white;
+}
+
+.bg.teal {
+  background-color: rgb(169, 227, 180);
+  color: rgb(19, 0, 91);
+}
+
+.p-y {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
