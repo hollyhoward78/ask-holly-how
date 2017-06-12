@@ -78,6 +78,13 @@ defaults:
   values:
     layout: base
 
+-
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: base
+
 # include:
 # - _stylesheets
 # - _javascript

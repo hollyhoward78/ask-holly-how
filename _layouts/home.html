@@ -27,11 +27,11 @@ layout: base
   <div class="row bg teal">
     <div class="container-fluid">
       <div class="col-sm-8 col-sm-offset-2 p-y">
-        {% for content in site.content %}
-          <h6>{{ content.title }}</h6>
+        {% for page in site.pages %}
+          <h6>{{ page.title }}</h6>
         {% endfor %}
 
-        <p>{{ site.content.sections.intro }}</p>
+        <p>{{ site.pages.sections.intro }}</p>
 
     </div>
     </div>
