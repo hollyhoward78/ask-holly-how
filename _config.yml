@@ -68,7 +68,15 @@ incremental: false
 
 collections:
 - content
+- pages
 
+defaults:
+-
+  scope:
+    path: ""
+    type: "content"
+  values:
+    layout: base
 
 # include:
 # - _stylesheets

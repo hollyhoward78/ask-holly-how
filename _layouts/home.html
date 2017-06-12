@@ -1,10 +1,5 @@
 ---
 layout: base
-title: Ask Holly How
-sections:
-  intro: This is the introduction
-  conclusion: |
-    This is some more text.
 ---
 
 <div class="row bg orange">
@@ -32,8 +27,11 @@ sections:
   <div class="row bg teal">
     <div class="container-fluid">
       <div class="col-sm-8 col-sm-offset-2 p-y">
-        <h6>{{ page.sections['intro'] }}</h6>
-        <p>{{ page.sections['conclusion'] }}</p>
+        {% for content in site.content %}
+          <h6>{{ content.title }}</h6>
+        {% endfor %}
+
+        <p>{{ site.content.sections.intro }}</p>
 
     </div>
     </div>
