@@ -1,3 +1,53 @@
+<div class="row bg cream">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 lead">
+          <span>Ask Holly How</span><span>&mdash;</span><span class="action-msg">to grow your business</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <p>
+            <a href="mailto:holly@askhollyhow.com" target="_blank"><strong>ahoward@askhollyhow.com</strong></a>
+            <br/>New York City
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <p>
+            <a href="twitter.com/ahh" target="_blank">Twitter</a><br/>
+            <a href="facebook.com/ahh" target="_blank">Facebook</a><br/>
+            <a href="instagram.com/ahh" target="_blank">Instagram</a>
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-5">
+          {% include email-signup.html %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <ul>
+            <!-- ** Write a for loop here once all of the pages are dynamically generated in the '_pages' folder -->
+            {% assign pages = site.pages | sort: "order" %}
+            {% for page in pages %}
+              {% if page.title != "Home" %}
+                <li><a href="{{ page.url }}">{{page.title}}</a></li>
+              {% endif %}
+            {% endfor %}
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <p class="caption">&copy; 2017 Holly Howard Consulting</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>

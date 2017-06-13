@@ -67,8 +67,11 @@ incremental: false
 # - vendor
 
 collections:
-- content
-- pages
+  content:
+    output: false
+  pages:
+    output: true
+    permalink: /:title/
 
 defaults:
 -

@@ -1,16 +1,8 @@
-// Colors
-
-$cream:         rgb(245, 232, 215);
-$navy:          rgb(6, 15, 90);
-$orange:        rgb(232, 142, 70);
-$green:         rgb(149, 206, 147);
-$pink:          rgb(255, 105, 91);
-$light-blue:    rgb(108, 194, 179);
-$tan-pink:      rgb(234,182,171);
+@import 'bootstrap-custom';
 
 
 html {
-  font-size: 16px;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -30,6 +22,16 @@ font-size: 1.5rem;
 
 h5 {
 font-size: 2.5rem;
+}
+
+.caption {
+  font-size: .75rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 #top-header {
@@ -61,6 +63,10 @@ font-size: 8rem;
   }
   &.tan-pink {
     background-color: $tan-pink;
+    color: $navy;
+  }
+  &.cream {
+    background-color: $cream;
     color: $navy;
   }
 }
