@@ -28,5 +28,5 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Introduction", name: "introduction", widget: "markdown"}
-      - {label: "Conclusion", name: "conclusion", widget: "markdown"}
+      - {label: "Sections", name: "sections", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
