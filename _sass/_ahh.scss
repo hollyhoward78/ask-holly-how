@@ -1,5 +1,8 @@
 @import 'bootstrap-custom';
+@import 'nav';
+@import 'mixins';
 
+@include responsive_padding_margins();
 
 html {
   font-size: 20px;
@@ -9,6 +12,7 @@ html {
 body {
   font-family: "Bianco Sans New", Arial, sans-serif;
   color: $navy;
+  background-color: $cream;
 }
 
 h1 {
@@ -16,16 +20,39 @@ font-family: "Bianco Serif New", Times, sans-serif;
 font-size: 4rem;
 }
 
-h6 {
-font-size: 1.5rem;
-}
-
 h5 {
 font-size: 2.5rem;
 }
 
+h6 {
+font-size: .825rem;
+text-transform: uppercase;
+font-family: $font-family-sans-serif;
+font-weight: bold;
+}
+
+.display-1 {
+font-size: 2.5rem;}
+
 .caption {
   font-size: .75rem;
+}
+
+.serif {
+  font-family: $font-family-serif;
+}
+
+.sans {
+  font-family: $font-family-sans-serif;
+}
+
+.underline {
+  text-decoration: underline;
+ //border-bottom: solid 3px;
+}
+
+.intro-lead {
+  font-size: $font-size-large;
 }
 
 ul {
@@ -34,27 +61,87 @@ ul {
   margin: 0;
 }
 
+a {
+  color: $navy;
+  &.navbar-brand {
+    &:hover {
+      border-bottom: none;
+    }
+  }
+  &:hover {
+    color: $navy;
+    text-decoration: none;
+    border-bottom: solid 1px $navy;
+  }
+}
+
+
+
 #top-header {
   padding: 5rem 1rem 1rem 1rem;
+  span#for-creative {
+    width: 300px;
+display: inline-block;
+@media only screen and (max-width: $screen-lg) {
+  width: 240px;
+}
+  }
+  span#entrepeneurs {
+    width: 200px;
+display: inline-block;
+@media only screen and (max-width: $screen-lg) {
+  width: 140px;
+}
+  }
 }
 
 #top-header h1 {
 font-family: "Bianco Serif New", Times, sans-serif;
-font-size: 8rem;
+font-size: 7.5rem;
+position: relative;
+    @media only screen and (max-width: $screen-lg) {
+      font-size: 6rem;
+    }
+    @media only screen and (max-width: $screen-md) {
+      font-size: 4rem;
+    }
+    @media only screen and (max-width: $screen-sm) {
+      font-size: 3rem;
+    }
+}
+
+#start-finish-home {
+  position: absolute;
+  top:-20px;
+  @media only screen and (max-width: $screen-lg) {
+    width: 240px;
+  }
 }
 
 .bg {
-  background-color: gray;
+  background-color: $cream;
   color: $cream;
   &.orange {
     background-color: $orange;
+  }
+  &.orange-navy {
+    background-color: $orange;
+    color: $navy;
   }
   &.green {
     background-color: $green;
     color: $navy;
   }
+  &.light-green {
+    background-color: $light-green;
+    color: $navy;
+  }
   &.pink {
     background-color: $pink;
+    color: $navy;
+  }
+  &.light-pink {
+    background-color: $light-pink;
     color: $navy;
   }
   &.light-blue {
@@ -65,13 +152,119 @@ font-size: 8rem;
     background-color: $tan-pink;
     color: $navy;
   }
+  &.light-tan-pink {
+    background-color: $light-tan-pink;
+    color: $navy;
+  }
   &.cream {
     background-color: $cream;
     color: $navy;
   }
+  &.pink-cream {
+    background-color: $pink-cream;
+    color: $navy;
+  }
+  &.white-gold {
+    background-color: #fff;
+    color: $gold;
+  }
+  &.lemon {
+    background-color: $lemon;
+    color: $navy;
+  }
+  &.light-lemon {
+    background-color: $light-lemon;
+    color: $gold;
+  }
 }
 
-.p-y {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.border-gold {
+  border: solid 1px $gold;
+}
+
+.border-navy {
+  border: solid 2px $navy;
+}
+
+.flex-full-height {
+  display: flex;
+  align-items: stretch;
+  div:first-of-type {
+      text-align: right;
+      display: inline-block;
+      div {
+        display: inline-block;
+        text-align: left;
+      }
+  }
+  div {
+    display: inline-block;
+    text-align: left;
+  }
+
+  @media only screen and (max-width: $screen-md) {
+    display: block;
+    align-items: none;
+    margin-bottom: 2em;
+    div:first-of-type {
+      text-align: center;
+    }
+    div {
+      // padding: 2em 1em;
+    }
+  }
+
+}
+
+.block {
+  &.left {
+    margin-left: calc(100% - 555px);
+    padding-right: 24px;
+    @media only screen and (max-width: $screen-lg) {
+      margin-left: calc(100% - 455px);
+    }
+    @media only screen and (max-width: $screen-md) {
+      width: 720px;
+      margin: 0 auto;
+    }
+    @media only screen and (max-width: $screen-sm) {
+      width: 100%;
+      padding: 0 $grid-gutter-width/2;
+    }
+  }
+  &.right {
+    padding-left: 24px;
+    width: 600px;
+    text-align: left !important;
+    @media only screen and (max-width: $screen-lg) {
+      width: 600px;
+    }
+    @media only screen and (max-width: $screen-md) {
+      width: 450px;
+    }
+    @media only screen and (max-width: $screen-sm) {
+      width: 100%;
+      padding: 0 $grid-gutter-width/2;
+    }
+  }
+}
+
+.testimonial-content {
+  p {
+    // font-size: .75rem;
+  }
+}
+
+ul.services-list {
+  list-style: circle;
+  font-size: .825rem;
+  padding-left: 1rem;
+}
+
+.service-image-container {
+  max-width: 600px;
+}
+
+ul.schedule {
+  font-size: .825rem;
 }

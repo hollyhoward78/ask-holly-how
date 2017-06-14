@@ -1,28 +1,36 @@
 // Colors
-$cream:         rgb(245, 232, 215);
-$navy:          rgb(6, 15, 90);
-$orange:        rgb(232, 142, 70);
-$green:         rgb(149, 206, 147);
-$pink:          rgb(255, 105, 91);
-$light-blue:    rgb(108, 194, 179);
-$tan-pink:      rgb(234,182,171);
+$pink-cream:      rgb(255, 221, 201);
+$cream:           rgb(245, 232, 215);
+$light-lemon:     rgb(255,255,201);
+$lemon:           rgb(255,255,142);
+$navy:            rgb(6, 15, 90);
+$orange:          rgb(232, 142, 70);
+$green:           rgb(149, 206, 147);
+$light-green:     rgb(214,235, 212);
+$pink:            rgb(255, 105, 91);
+$light-pink:      rgb(251, 151, 142);
+$light-blue:      rgb(108, 194, 179);
+$tan-pink:        rgb(236,197,189);
+$light-tan-pink:  rgb(243,219,213);
+$gold:            rgb(195,120,42);
 
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Bianco Sans New", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-serif:       "Bianco Serif New", Georgia, "Times New Roman", Times, serif !default;
+$font-family-sans-serif:  "Bianco Sans New", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  $font-family-sans-serif-bold:  "Bianco Sans New", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       "Bianco Serif New", Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
 $font-size-base:          20px;
-$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-large:         ceil(($font-size-base * 1.5)); // ~30px
 $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
-$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h1:            floor(($font-size-base * 3.4)); // ~68px
+$font-size-h2:            floor(($font-size-base * 2.7)); // ~54px
 $font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
@@ -34,7 +42,35 @@ $line-height-base:        1.428571429 !default; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    inherit !default;
+$headings-font-family:    $font-family-serif;
 $headings-font-weight:    500 !default;
 $headings-line-height:    1.1 !default;
 $headings-color:          inherit !default;
+
+$padding: 1.25rem;
+
+// Spacing
+$spacer: $padding;
+$spacings: 0,1,2,3,6,9,12;
+
+$margins_and_paddings: (
+  m: margin,
+  p: padding
+);
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg:                  1240px;
+$screen-lg-min:              $screen-lg;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min;
+
+
+// Global Responsive Breakpoints
+$breakpoints: (
+  xs: 480px,
+  sm: 768px,
+  md: 992px,
+  lg: 1240px,
+  xl: 1600px
+);

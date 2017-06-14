@@ -1,0 +1,71 @@
+
+
+nav.navbar {
+  background-color: $pink-cream;
+  border-color: $pink-cream;
+  border: none;
+  height: 75px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 0px 0px;
+    margin: 28px 25px;
+  }
+
+.navbar .navbar-nav {
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: .075rem;
+    color: $navy;
+    background-color: $pink-cream;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: $navy;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 28px;
+    margin-bottom: 25px;
+    font-weight: normal;
+    font-family: $font-family-sans-serif-bold;
+    &.active {
+      border-bottom: solid 2px $navy;
+    }
+    &:hover {
+      color: $navy;
+    }
+}
+
+.navbar-default .navbar-nav{
+  li {
+    color: $navy;
+
+  }
+}
+
+.navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#ahh-logo {
+  width: 50%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $navy;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
