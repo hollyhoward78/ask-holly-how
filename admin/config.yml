@@ -37,11 +37,12 @@ collections:
     files:
       - name: "general"
         label: "Site Settings"
-        file: "_data/settings.json"
+        file: "_data/settings.md"
         description: "General Site Settings"
         fields:
           - {label: "Site Headline", name: "siteHeadline", widget: "string"}
           - {label: "Site Tag Line", name: "siteTagline", widget: "string"}
+
   - name: "siteContent"
     label: "Site Content"
     folder: "_data"
