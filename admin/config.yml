@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update
   publish_mode: editorial_workflow
 
-media_folder: "images/uploads"
+media_folder: "images/"
 
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
@@ -13,7 +13,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
@@ -30,3 +30,43 @@ collections:
       - {label: "Introduction", name: "introduction", widget: "markdown"}
       - {label: "Sections", name: "sections", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - name: "general"
+        label: "Site Settings"
+        file: "_data/settings.json"
+        description: "General Site Settings"
+        fields:
+          - {label: "Site Headline", name: "siteHeadline", widget: "string"}
+          - {label: "Site Tag Line", name: "siteTagline", widget: "string"}
+  - name: "siteContent"
+    label: "Site Content"
+    files:
+      - name: "frontPageImages"
+        label: "Front Page Background Images"
+        file: "_data/frontimages.json"
+        create: true
+        description: "Images to be used as the background for the main page, will be converted to B&W"
+        fields:
+          - name: "images"
+            label: "Images"
+            widget: list
+            fields:
+              - {label: "Description", name: "description", widget: "string"}
+              - {label: "Attribution/Copyright", name: "attribution", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+      - name: "news"
+        label: "News"
+        file: "_data/news.json"
+        create: true
+        description: "Website News"
+        fields:
+          - name: "news"
+            label: "News"
+            widget: list
+            fields:
+              - {label: "Description", name: "description", widget: "string"}
+              - {label: "Attribution/Copyright", name: "attribution", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}

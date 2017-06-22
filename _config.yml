@@ -67,20 +67,11 @@ incremental: false
 # - vendor
 
 collections:
-  content:
-    output: false
   pages:
     output: true
     permalink: /:title/
 
 defaults:
--
-  scope:
-    path: ""
-    type: "content"
-  values:
-    layout: base
-
 -
   scope:
     path: ""
