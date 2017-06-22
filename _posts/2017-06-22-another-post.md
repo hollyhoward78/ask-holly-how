@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+title: Another Post
+layout: single
+tags: something else
 ---
 ## This is another post!
 
