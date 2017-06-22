@@ -34,7 +34,6 @@ collections:
   - name: "settings"
     label: "Settings"
     folder: "_data"
-    label: "Site Settings"
     file: "_data/settings.md"
     description: "General Site Settings"
     fields:
