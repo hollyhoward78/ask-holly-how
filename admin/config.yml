@@ -34,39 +34,8 @@ collections:
   - name: "settings"
     label: "Settings"
     folder: "_data"
-    file: "_data/settings.md"
+    file: "_data/settings.yml"
     description: "General Site Settings"
     fields:
       - {label: "Site Headline", name: "siteHeadline", widget: "string"}
       - {label: "Site Tag Line", name: "siteTagline", widget: "string"}
-
-  - name: "siteContent"
-    label: "Site Content"
-    folder: "_data"
-    files:
-      - name: "frontPageImages"
-        label: "Front Page Background Images"
-        file: "_data/frontimages.json"
-        create: true
-        description: "Images to be used as the background for the main page, will be converted to B&W"
-        fields:
-          - name: "images"
-            label: "Images"
-            widget: list
-            fields:
-              - {label: "Description", name: "description", widget: "string"}
-              - {label: "Attribution/Copyright", name: "attribution", widget: "string"}
-              - {label: "Image", name: "image", widget: "image"}
-      - name: "news"
-        label: "News"
-        file: "_data/news.json"
-        create: true
-        description: "Website News"
-        fields:
-          - name: "news"
-            label: "News"
-            widget: list
-            fields:
-              - {label: "Description", name: "description", widget: "string"}
-              - {label: "Attribution/Copyright", name: "attribution", widget: "string"}
-              - {label: "Image", name: "image", widget: "image"}
