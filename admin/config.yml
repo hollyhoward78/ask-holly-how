@@ -20,6 +20,24 @@ collections:
       - {label: "Tags", name: "tags", widget: "categories"}
       - {label: "Body", name: "body", widget: "markdown"}
 
+  - name: "home" # Used in routes, e.g. /admin/collections/blog
+    label: "Homepage" # Used in the UI
+    file: "index.md"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+      - {label: "Body", name: "body", widget: "hidden"}
+      - {label: "Main Title", name: "title", widget: "string"}
+      - {label: "Main Introduction", name: "introduction", widget: "text"}
+      - {label: "Main Image", name: "main_image", widget: "image", required: false}
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        fields:
+          - {label: "Section Title", name: "section_title", widget: "string"}
+          - {label: "Section Text", name: "section_text", widget: "text"}
+          - {label: "Section Image", name: "section_image", widget: "image", required: false}
+          - {label: "Section Selection", name: "section_select", widget: "select", options: ["Left", "Right"]}
+
   - name: "page" # Used in routes, e.g. /admin/collections/blog
     label: "Page" # Used in the UI
     files:
