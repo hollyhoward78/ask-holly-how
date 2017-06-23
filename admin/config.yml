@@ -16,7 +16,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Featured Image", name: "thumbnail", required: false, widget: "image"}
       - {label: "Tags", name: "tags", widget: "categories"}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -26,13 +26,15 @@ collections:
     slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Introduction", name: "introduction", widget: "markdown"}
-      - {label: "Sections", name: "sections", widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - label: "List"
-        name: "list"
+      - {label: "Body", name: "body", widget: "hidden"}
+      - {label: "Main Title", name: "title", widget: "string"}
+      - {label: "Main Introduction", name: "introduction", widget: "text"}
+      - {label: "Main Image", name: "main_image", widget: "image", required: false}
+      - label: "Sections"
+        name: "sections"
         widget: "list"
         fields:
-          - {label: "String", name: "string", widget: "string"}
-          - {label: "Text", name: "text", widget: "text"}
+          - {label: "Section Title", name: "section_title", widget: "string"}
+          - {label: "Section Text", name: "section_text", widget: "text"}
+          - {label: "Section Image", name: "section_image", widget: "image", required: false}
+          - {label: "Section Selection", name: "section_select", widget: "select", options: ["Left", "Right"]}
