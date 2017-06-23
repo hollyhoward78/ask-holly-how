@@ -22,19 +22,38 @@ collections:
 
   - name: "page" # Used in routes, e.g. /admin/collections/blog
     label: "Page" # Used in the UI
-    folder: "_pages" # The path to the folder where the documents are stored
-    slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
-      - {label: "Body", name: "body", widget: "hidden"}
-      - {label: "Main Title", name: "title", widget: "string"}
-      - {label: "Main Introduction", name: "introduction", widget: "text"}
-      - {label: "Main Image", name: "main_image", widget: "image", required: false}
-      - label: "Sections"
-        name: "sections"
-        widget: "list"
-        fields:
-          - {label: "Section Title", name: "section_title", widget: "string"}
-          - {label: "Section Text", name: "section_text", widget: "text"}
-          - {label: "Section Image", name: "section_image", widget: "image", required: false}
-          - {label: "Section Selection", name: "section_select", widget: "select", options: ["Left", "Right"]}
+    files:
+      - name: "Services"
+        label: "Services page"
+        file: "_pages/services.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
+          - {label: "Body", name: "body", widget: "hidden"}
+          - {label: "Main Title", name: "title", widget: "string"}
+          - {label: "Main Introduction", name: "introduction", widget: "text"}
+          - {label: "Main Image", name: "main_image", widget: "image", required: false}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Section Title", name: "section_title", widget: "string"}
+              - {label: "Section Text", name: "section_text", widget: "text"}
+              - {label: "Section Image", name: "section_image", widget: "image", required: false}
+              - {label: "Section Selection", name: "section_select", widget: "select", options: ["Left", "Right"]}
+      - name: "Programs"
+        label: "Programs page"
+        file: "_pages/programs.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Layout", name: "layout", widget: "hidden", default: "base"}
+          - {label: "Body", name: "body", widget: "hidden"}
+          - {label: "Main Title", name: "title", widget: "string"}
+          - {label: "Main Introduction", name: "introduction", widget: "text"}
+          - {label: "Main Image", name: "main_image", widget: "image", required: false}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Section Title", name: "section_title", widget: "string"}
+              - {label: "Section Text", name: "section_text", widget: "text"}
+              - {label: "Section Image", name: "section_image", widget: "image", required: false}
+              - {label: "Section Selection", name: "section_select", widget: "select", options: ["Left", "Right"]}
