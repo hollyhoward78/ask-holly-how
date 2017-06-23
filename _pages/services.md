@@ -7,7 +7,7 @@ introduction: >-
   full review of your company history as well as a discussion of future goals. 
   After that initial session, Holly arranges private consulting on an hourly
   basis planning the frequency and number of sessions based on your company’s
-  plan for growth.
+  plan for growth and prosperity.
 main_image: /images/edible-brooklyn-july-logo.png
 sections:
   - section_image: /images/ahh-cms-logo2.png
@@ -18,4 +18,5 @@ sections:
     section_title: Here are some services
 ---
 This is the services page
+
 
