@@ -10,13 +10,14 @@ introduction: >-
   plan for growth and prosperity.
 main_image: /images/edible-brooklyn-july-logo.png
 sections:
+  - section_text: And some text with those
+    section_title: Here are some services
   - section_image: /images/ahh-cms-logo2.png
     section_select: Right
     section_text: This is the programs text
     section_title: Programs
-  - section_text: And some text with those
-    section_title: Here are some services
 ---
 This is the services page
+
 
 
