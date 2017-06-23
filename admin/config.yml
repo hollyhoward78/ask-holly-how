@@ -31,22 +31,14 @@ collections:
       - {label: "Sections", name: "sections", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "settings"
-    label: "Settings"
-    folder: "_data"
-    file: "_data/settings.yml"
-    description: "General Site Settings"
-    fields:
-      - {label: "Site Headline", name: "siteHeadline", widget: "string"}
-      - {label: "Site Tag Line", name: "siteTagline", widget: "string"}
-
   - name: "kitchenSink" # all the things in one entry, for documentation and quick testing
     label: "Kitchen Sink"
     folder: "_data"
+    slug: "{{slug}}.yml"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Boolean", name: "boolean", widget: "boolean", default: true}
+      # - {label: "Boolean", name: "boolean", widget: "boolean", default: true}
       - {label: "Text", name: "text", widget: "text"}
       - {label: "Number", name: "number", widget: "number"}
       - {label: "Markdown", name: "markdown", widget: "markdown"}
@@ -60,7 +52,7 @@ collections:
         widget: "object"
         fields:
           - {label: "String", name: "string", widget: "string"}
-          - {label: "Boolean", name: "boolean", widget: "boolean", default: false}
+          # - {label: "Boolean", name: "boolean", widget: "boolean", default: false}
           - {label: "Text", name: "text", widget: "text"}
           - {label: "Number", name: "number", widget: "number"}
           - {label: "Markdown", name: "markdown", widget: "markdown"}
@@ -74,7 +66,7 @@ collections:
         widget: "list"
         fields:
           - {label: "String", name: "string", widget: "string"}
-          - {label: "Boolean", name: "boolean", widget: "boolean"}
+          # - {label: "Boolean", name: "boolean", widget: "boolean"}
           - {label: "Text", name: "text", widget: "text"}
           - {label: "Number", name: "number", widget: "number"}
           - {label: "Markdown", name: "markdown", widget: "markdown"}
@@ -88,7 +80,7 @@ collections:
             widget: "object"
             fields:
               - {label: "String", name: "string", widget: "string"}
-              - {label: "Boolean", name: "boolean", widget: "boolean"}
+              # - {label: "Boolean", name: "boolean", widget: "boolean"}
               - {label: "Text", name: "text", widget: "text"}
               - {label: "Number", name: "number", widget: "number"}
               - {label: "Markdown", name: "markdown", widget: "markdown"}
@@ -102,7 +94,7 @@ collections:
                 widget: "list"
                 fields:
                   - {label: "String", name: "string", widget: "string"}
-                  - {label: "Boolean", name: "boolean", widget: "boolean"}
+                  # - {label: "Boolean", name: "boolean", widget: "boolean"}
                   - {label: "Text", name: "text", widget: "text"}
                   - {label: "Number", name: "number", widget: "number"}
                   - {label: "Markdown", name: "markdown", widget: "markdown"}
@@ -116,7 +108,7 @@ collections:
                     widget: "object"
                     fields:
                       - {label: "String", name: "string", widget: "string"}
-                      - {label: "Boolean", name: "boolean", widget: "boolean"}
+                      # - {label: "Boolean", name: "boolean", widget: "boolean"}
                       - {label: "Text", name: "text", widget: "text"}
                       - {label: "Number", name: "number", widget: "number"}
                       - {label: "Markdown", name: "markdown", widget: "markdown"}
