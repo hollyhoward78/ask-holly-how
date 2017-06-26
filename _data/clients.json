@@ -1,4 +1,1 @@
-{
-  "client_name": "The Client Name",
-  "client_link": "http://somelink.org"
-}
+{"client_name":"The Client Name","client_link":"http://somelink.org","client_header":"Clients","clientele":[{"client_name":"Client Name","client_link":"http://newlink.org"},{"client_name":"Client Name 2","client_link":"http://newestlink.org"}]}
