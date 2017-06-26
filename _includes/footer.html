@@ -55,35 +55,3 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-  <script>
-	function pathPrepare ($el) {
-		var lineLength = $el[0].getTotalLength();
-		$el.css("stroke-dasharray", lineLength);
-		$el.css("stroke-dashoffset", lineLength);
-	}
-
-	var $word = $("path#word");
-	var $dot = $("path#dot");
-
-	// prepare SVG
-	pathPrepare($word);
-	pathPrepare($dot);
-
-	// init controller
-	var controller = new ScrollMagic.Controller();
-
-	// build tween
-	var tween = new TimelineMax()
-		.add(TweenMax.to($word, 0.9, {strokeDashoffset: 0, ease:Linear.easeNone})) // draw word for 0.9
-		.add(TweenMax.to($dot, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))  // draw dot for 0.1
-		.add(TweenMax.to("path", 1, {stroke: "#33629c", ease:Linear.easeNone}), 0);			// change color during the whole thing
-
-	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 200, tweenChanges: true})
-					.setTween(tween)
-					.addIndicators() // add indicators (requires plugin)
-					.addTo(controller);
-</script>

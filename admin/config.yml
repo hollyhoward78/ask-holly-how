@@ -84,11 +84,25 @@ collections:
     files:
       - name: "client-list"
         label: "Client List"
-        file: "_data/clients.json"
+        file: "_data/clients.json" # site.data.clients
         fields:
           - {label: "Clients Header", name: "client_header", widget: "string"}
-          - label: "Clientele"
-            name: "clientele"
+          - label: "Client List (Column 1)"
+            name: "client_list_col1" # site.data.clients.client_list_col1
+            widget: "list"
+            fields:
+              - {label: "Client Name", name: "client_name", widget: "string"}
+              - {label: "Client Link", name: "client_link", widget: "string", required: false}
+
+          - label: "Client List (Column 2)"
+            name: "client_list_col2" # site.data.clients.client_list_col2
+            widget: "list"
+            fields:
+              - {label: "Client Name", name: "client_name", widget: "string"}
+              - {label: "Client Link", name: "client_link", widget: "string", required: false}
+
+          - label: "Client List (Column 3)"
+            name: "client_list_col3" # site.data.clients.client_list_col3
             widget: "list"
             fields:
               - {label: "Client Name", name: "client_name", widget: "string"}
@@ -96,25 +110,25 @@ collections:
 
       - name: "graduate-list"
         label: "Graduate List"
-        file: "_data/graduates.json"
+        file: "_data/graduates.json" # site.data.graduates
         fields:
           - {label: "Graduate Header", name: "grad_header", widget: "string"}
           - label: "Graduate List (Column 1)"
-            name: "grad_list_col1"
+            name: "grad_list_col1" # site.data.graduates.grad_list_col1
             widget: "list"
             fields:
               - {label: "Graduate Name", name: "graduate_name", widget: "string"}
               - {label: "Graduate Link", name: "graduate_link", widget: "string", required: false}
 
           - label: "Graduate List (Column 2)"
-            name: "grad_list_col2"
+            name: "grad_list_col2" # site.data.graduates.grad_list_col2
             widget: "list"
             fields:
               - {label: "Graduate Name", name: "graduate_name", widget: "string"}
               - {label: "Graduate Link", name: "graduate_link", widget: "string", required: false}
 
           - label: "Graduate List (Column 3)"
-            name: "grad_list_col3"
+            name: "grad_list_col3" # site.data.graduates.grad_list_col3
             widget: "list"
             fields:
               - {label: "Graduate Name", name: "graduate_name", widget: "string"}
