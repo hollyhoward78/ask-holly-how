@@ -1,10 +1,1 @@
-{
-  "client_header":"Clients",
-    "clientele":
-    [{
-      "client_name":"Client Name",
-      "client_link":"http://newlink.org"},
-      {"client_name":"Client Name 2",
-      "client_link":"http://newestlink.org"
-    }]
-}
+{"client_header":"Clients","clientele":[{"client_name":"Client Name","client_link":"http://newlink.org"},{"client_name":"Client Name 2","client_link":"http://newestlink.org"},{"client_name":"New Client","client_link":"http://thisissomething.org"},{"client_name":"Pies 'n Thighs","client_link":"http://piesnthighs.com"}]}
