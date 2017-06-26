@@ -87,6 +87,9 @@ layout: base
         <div class="row">
           <div class="col-xs-12 col-md-4">
             <ul class="graduates col-1">
+              {% for graduate in site.data.graduates.grad_list_col1 %}
+                  <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
+              {% endfor %}
               Nausette Press<br/>
               Brooklyn Jr.<br/>
               Stefania Giarbado Handmade<br/>
@@ -110,6 +113,9 @@ layout: base
           </div>
           <div class="col-xs-12 col-md-4">
             <ul class="graduates col-2">
+              {% for graduate in site.data.graduates.grad_list_col2 %}
+                  <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
+              {% endfor %}
               Camp Celo<br/>
               Jack from Brooklyn<br/>
               Grindhaus<br/>
@@ -133,6 +139,9 @@ layout: base
           </div>
           <div class="col-xs-12 col-md-4">
             <ul class="graduates col-3">
+              {% for graduate in site.data.graduates.grad_list_col3 %}
+                  <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
+              {% endfor %}
                 Granola Lab<br/>
                 Home Studios<br/>
                 Fort Standard<br/>

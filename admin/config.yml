@@ -99,8 +99,22 @@ collections:
         file: "_data/graduates.json"
         fields:
           - {label: "Graduate Header", name: "grad_header", widget: "string"}
-          - label: "Graduates"
-            name: "graduates"
+          - label: "Graduate List (Column 1)"
+            name: "grad_list_col1"
+            widget: "list"
+            fields:
+              - {label: "Graduate Name", name: "graduate_name", widget: "string"}
+              - {label: "Graduate Link", name: "graduate_link", widget: "string", required: false}
+
+          - label: "Graduate List (Column 2)"
+            name: "grad_list_col2"
+            widget: "list"
+            fields:
+              - {label: "Graduate Name", name: "graduate_name", widget: "string"}
+              - {label: "Graduate Link", name: "graduate_link", widget: "string", required: false}
+
+          - label: "Graduate List (Column 3)"
+            name: "grad_list_col3"
             widget: "list"
             fields:
               - {label: "Graduate Name", name: "graduate_name", widget: "string"}
