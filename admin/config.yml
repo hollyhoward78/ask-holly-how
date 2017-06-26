@@ -7,8 +7,8 @@ backend:
 media_folder: "images/"
 
 collections:
-  - name: "post" # Used in routes, e.g. /admin/collections/blog
-    label: "Post" # Used in the UI
+  - name: "resource" # Used in routes, e.g. /admin/collections/blog
+    label: "Resource" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
@@ -79,8 +79,8 @@ collections:
               - {label: "Section Image", name: "section_image", widget: "image", required: false}
               - {label: "Section Selection", name: "section_select", widget: "select", options: ["Left", "Right"]}
 
-  - name: "clients" # Used in routes, e.g. /admin/collections/blog
-    label: "Clients" # Used in the UI
+  - name: "site-lists" # Used in routes, e.g. /admin/collections/blog
+    label: "Clients and Graduates" # Used in the UI
     files:
       - name: "client-list"
         label: "Client List"
@@ -93,3 +93,15 @@ collections:
             fields:
               - {label: "Client Name", name: "client_name", widget: "string"}
               - {label: "Client Link", name: "client_link", widget: "string", required: false}
+
+      - name: "graduate-list"
+        label: "Graduate List"
+        file: "_data/graduates.json"
+        fields:
+          - {label: "Graduate Header", name: "grad_header", widget: "string"}
+          - label: "Graduates"
+            name: "graduates"
+            widget: "list"
+            fields:
+              - {label: "Graduate Name", name: "graduate_name", widget: "string"}
+              - {label: "Graduate Link", name: "graduate_link", widget: "string", required: false}
