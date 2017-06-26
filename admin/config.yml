@@ -86,9 +86,10 @@ collections:
         label: "Client List"
         file: "_data/clients.json"
         fields:
-          - label: "Clients"
-            name: "clients"
+          - {label: "Clients Header", name: "client_header", widget: "string"}
+          - label: "Clientele"
+            name: "clientele"
             widget: "list"
             fields:
               - {label: "Client Name", name: "client_name", widget: "string"}
-              - {label: "Client Link", name: "client_link", widget: "string",required: false}
+              - {label: "Client Link", name: "client_link", widget: "string", required: false}
