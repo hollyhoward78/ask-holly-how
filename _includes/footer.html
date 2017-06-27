@@ -66,7 +66,7 @@
         var navPad = 25;
         console.log(scrollNum);
 
-        if ( scrollNum <= 0 && scrollNum <= 70 ) {
+        if ( scrollNum >= 0 && scrollNum <= 25 ) {
           console.log('scrollNum is ' + scrollNum);
           document.getElementById('ahh-nav').style.paddingTop = navPad + 'px';
           document.getElementById('ahh-nav').style.paddingBottom = navPad + 'px';
@@ -86,23 +86,31 @@
           //document.getElementById('ahh-arrow').style.fontSize = ((Math.sin(window.scrollY/400) + 1) * 24 ) + 'px'//Math.sin(1 / window.scrollY % 360) + 'px'
           //document.getElementById('ahh-arrow').style.transform = 'rotateZ(' + window.scrollY % 360 + 'deg)'
 
-            scrollNum = ((window.scrollY/12) * 1);
+            scrollNum = ((window.scrollY/8) * 1);
             console.log(scrollNum+ ','+ navPad);
-            if (scrollNum <= 70) {
+            if (scrollNum <= 30) {
               //document.querySelector('#ahh-top-logo').getElementById('st0').style.strokeDashoffset = scrollNum;
               //document.querySelector('.ahh-arrow').getElementById('st1').style.transform = "translate(scrollNum,10)";
+              document.querySelector('#ahh-top-logo').style.top = (16 - (scrollNum/3)) + 'px';
+              document.querySelector('#ahh-top-logo').style.strokeOpacity = (1 - (scrollNum/20));
+              document.querySelector('#ahh-top-logo').style.fillOpacity = (1 - (scrollNum/20));
+              document.querySelector('#ahh-monogram').style.strokeOpacity = (scrollNum/20);
+              document.querySelector('#ahh-monogram').style.fillOpacity = (scrollNum/20);
 
-              document.querySelector('#ahh-top-logo').style.strokeOpacity = (1 - (scrollNum/12));
-              document.querySelector('#ahh-top-logo').style.fillOpacity = (1 - (scrollNum/12));
-              document.querySelector('#ahh-monogram').style.strokeOpacity = (scrollNum/24);
-              document.querySelector('#ahh-monogram').style.fillOpacity = (scrollNum/24);
-              document.querySelector('#ahh-monogram').style.top = (16 - (scrollNum/10)) + 'px';
+
+              //document.querySelector('#ahh-monogram').style.top = (16 - (scrollNum/10)) + 'px';
 
               document.getElementById('ahh-nav').style.paddingTop = (navPad - scrollNum) + 'px';
               document.getElementById('ahh-nav').style.paddingBottom = (navPad - scrollNum) + 'px';
+
+            } else if (scrollNum > 30) {
+
+                //document.getElementById('ahh-nav').style.backgroundColor = '#ffddc9';
             } else {
               navPad = 25;
             }
+
+
         })
 
       }, false);
