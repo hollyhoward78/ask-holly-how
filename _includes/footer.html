@@ -58,32 +58,54 @@
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
   <script>
-    var scrollNum=0;
-    var navPad = 25;
-    document.getElementById('ahh-nav').style.paddingTop = navPad + 'px';
-    document.getElementById('ahh-nav').style.paddingBottom = navPad + 'px';
-    console.log(scrollNum+ ','+ navPad);
 
-    window.addEventListener('scroll', function () {
-      // ((Math.sin(window.scrollY) + 1) * 24 ) + 'px'
-      //((Math.sin(window.scrollY/200) + 1) * 24 )
-      //document.getElementById('ahh-arrow').style.fontSize = ((Math.sin(window.scrollY/400) + 1) * 24 ) + 'px'//Math.sin(1 / window.scrollY % 360) + 'px'
-      //document.getElementById('ahh-arrow').style.transform = 'rotateZ(' + window.scrollY % 360 + 'deg)'
+    document.addEventListener('DOMContentLoaded', function() {
+      window.addEventListener('load', function() {
 
-        scrollNum = ((window.scrollY/24) * 1);
-        console.log(scrollNum+ ','+ navPad);
-        if (scrollNum <= 70) {
-          //document.querySelector('.ahh-arrow').getElementById('st0').style.strokeDashoffset = scrollNum;
-        //  document.querySelector('.ahh-arrow').getElementById('st1').style.transform = "translate(scrollNum,10)";
-          document.getElementById('ahh-nav').style.paddingTop = (navPad - scrollNum) + 'px';
-          document.getElementById('ahh-nav').style.paddingBottom = (navPad - scrollNum) + 'px';
+        var scrollNum = parseInt(window.scrollY);
+        var navPad = 25;
+        console.log(scrollNum);
+
+        if ( scrollNum <= 0 && scrollNum <= 70 ) {
+          console.log('scrollNum is ' + scrollNum);
+          document.getElementById('ahh-nav').style.paddingTop = navPad + 'px';
+          document.getElementById('ahh-nav').style.paddingBottom = navPad + 'px';
+          document.querySelector('#ahh-top-logo').style.strokeOpacity = 1;
+          document.querySelector('#ahh-top-logo').style.fillOpacity = 1;
         } else {
-          //document.querySelector('.ahh-arrow').getElementById('st0').style.strokeDashoffset = 70;
-          navPad = 25;
+          document.querySelector('#ahh-top-logo').style.strokeOpacity = 0;
+          document.querySelector('#ahh-top-logo').style.fillOpacity = 0;
+          document.querySelector('#ahh-monogram').style.strokeOpacity = 1;
+          document.querySelector('#ahh-monogram').style.fillOpacity = 1;
+          document.querySelector('#ahh-monogram').style.top = 8 + 'px';
         }
 
+        window.addEventListener('scroll', function () {
+          // ((Math.sin(window.scrollY) + 1) * 24 ) + 'px'
+          //((Math.sin(window.scrollY/200) + 1) * 24 )
+          //document.getElementById('ahh-arrow').style.fontSize = ((Math.sin(window.scrollY/400) + 1) * 24 ) + 'px'//Math.sin(1 / window.scrollY % 360) + 'px'
+          //document.getElementById('ahh-arrow').style.transform = 'rotateZ(' + window.scrollY % 360 + 'deg)'
 
+            scrollNum = ((window.scrollY/12) * 1);
+            console.log(scrollNum+ ','+ navPad);
+            if (scrollNum <= 70) {
+              //document.querySelector('#ahh-top-logo').getElementById('st0').style.strokeDashoffset = scrollNum;
+              //document.querySelector('.ahh-arrow').getElementById('st1').style.transform = "translate(scrollNum,10)";
 
-    })
+              document.querySelector('#ahh-top-logo').style.strokeOpacity = (1 - (scrollNum/12));
+              document.querySelector('#ahh-top-logo').style.fillOpacity = (1 - (scrollNum/12));
+              document.querySelector('#ahh-monogram').style.strokeOpacity = (scrollNum/24);
+              document.querySelector('#ahh-monogram').style.fillOpacity = (scrollNum/24);
+              document.querySelector('#ahh-monogram').style.top = (16 - (scrollNum/10)) + 'px';
+
+              document.getElementById('ahh-nav').style.paddingTop = (navPad - scrollNum) + 'px';
+              document.getElementById('ahh-nav').style.paddingBottom = (navPad - scrollNum) + 'px';
+            } else {
+              navPad = 25;
+            }
+        })
+
+      }, false);
+    }, false);
 
   </script>

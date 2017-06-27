@@ -99,11 +99,59 @@ a, button {
 // .top {
 //   text-align: center;
 // }
-#ahh-nav {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  height: auto;
+
+#ahh-monogram {
+  position: absolute;
+  top: 8px;
+  .cls-1 {
+    fill: none;
+    stroke: $navy;
+    stroke-width: 1.5px;
+  }
+
+  .cls-2 {
+    fill: $navy;
+  }
 }
+
+#ahh-nav {
+  height: auto;
+  
+  #ahh-monogram {
+    position: absolute;
+    top: 16px;
+    fill-opacity: 0;
+    stroke-opacity: 0;
+    .cls-1 {
+      fill: none;
+      stroke: $navy;
+      stroke-width: 1.5px;
+    }
+
+    .cls-2 {
+      fill: $navy;
+    }
+  }
+}
+
+#ahh-top-logo {
+  position: absolute;
+  top: 16px;
+  fill-opacity: 1;
+  stroke-opacity: 1;
+  .cls-1 {
+    fill: none;
+    stroke: $navy;
+    stroke-width: 1.5px;
+  }
+
+  .cls-2 {
+    fill: $navy;
+  }
+}
+
+
+
 
 #top-header {
   padding: 8rem 1rem 1rem 1rem;
