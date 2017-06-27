@@ -46,10 +46,10 @@ font-size: 2.5rem;}
   font-family: $font-family-sans-serif;
 }
 
-.underline {
-  text-decoration: underline;
- //border-bottom: solid 3px;
+.bold {
+  font-weight: bold;
 }
+
 
 .intro-lead {
   font-size: $font-size-large;
@@ -61,46 +61,90 @@ ul {
   margin: 0;
 }
 
-a {
+a, button {
   color: $navy;
+  outline: none;
+  -webkit-appearance: none;
   &.navbar-brand {
     &:hover {
       border-bottom: none;
+      outline: none;
     }
   }
   &:hover {
     color: $navy;
     text-decoration: none;
     border-bottom: solid 1px $navy;
+    outline: none;
+  }
+  &:focus {
+    outline: none;
+    outline: 0;
   }
 }
 
+.btn-md {
+  background: transparent;
+  border: solid .12rem;
+  padding: .45rem 1rem .125rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  &:hover {
+    text-decoration: none;
+    background: $navy;
+    color: inherit;
+  }
+}
 
+// .top {
+//   text-align: center;
+// }
+#ahh-nav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: auto;
+}
 
 #top-header {
-  padding: 5rem 1rem 1rem 1rem;
+  padding: 8rem 1rem 1rem 1rem;
+  text-align: center;
+    position: relative;
+    margin: 0 auto;
   span#for-creative {
-    width: 300px;
-display: inline-block;
-@media only screen and (max-width: $screen-lg) {
-  width: 240px;
-}
+    width: 320px;
+    display: inline-block;
+    @media only screen and (max-width: $screen-lg) {
+      width: 240px;
+    }
+    @media only screen and (max-width: $screen-md) {
+      width: 206px;
+    }
   }
   span#entrepeneurs {
     width: 200px;
-display: inline-block;
-@media only screen and (max-width: $screen-lg) {
-  width: 140px;
-}
+    display: inline-block;
+    @media only screen and (max-width: $screen-lg) {
+      width: 140px;
+    }
   }
+
+}
+
+.top-header-text-container {
+  text-align: left;
+    margin: 0 auto;
+    display: inline-block;
 }
 
 #top-header h1 {
 font-family: "Bianco Serif New", Times, sans-serif;
-font-size: 7.5rem;
+font-size: 7.25rem;
 position: relative;
     @media only screen and (max-width: $screen-lg) {
       font-size: 6rem;
+    }
+    @media only screen and (max-width: 1080px) {
+      font-size: 5.5rem;
     }
     @media only screen and (max-width: $screen-md) {
       font-size: 4rem;
@@ -112,15 +156,34 @@ position: relative;
 
 #start-finish-home {
   position: absolute;
-  top:-20px;
+  top: calc(50% - 235px);
+  left: calc(50% - 355px);
   @media only screen and (max-width: $screen-lg) {
     width: 240px;
+    top: calc(50% - 205px);
+    left: calc(50% - 275px);
+  }
+  @media only screen and (max-width: $screen-md) {
+    width: 200px;
+    top: calc(50% - 198px);
+    left: calc(50% - 175px);
   }
 }
+
+.underline {
+  // text-decoration: underline;
+ //border-bottom: solid 3px;
+ background-size: 1px 1em;
+    box-shadow: inset 0 -0.1625em inherit, inset 0 -0.2em $navy;
+    display: inline;
+}
+
 
 .bg {
   background-color: $cream;
   color: $cream;
+  margin-left: 0px;
+  margin-right: 0px;
   &.orange {
     background-color: $orange;
   }
@@ -131,6 +194,23 @@ position: relative;
   &.green {
     background-color: $green;
     color: $navy;
+    .underline {
+      // text-decoration: underline;
+     //border-bottom: solid 3px;
+     background-size: 1px 1em;
+        box-shadow: inset 0 -0.1625em $green, inset 0 -0.2em $navy;
+        display: inline;
+    }
+    .btn-md {
+      border: solid .12rem $navy;
+      &:hover {
+        text-decoration: none;
+        background: $navy;
+        color: $green;
+        border: solid .12rem $navy;
+      }
+    }
+
   }
   &.light-green {
     background-color: $light-green;
@@ -210,6 +290,7 @@ position: relative;
       text-align: center;
     }
     div {
+      text-align: center;
       // padding: 2em 1em;
     }
   }
@@ -219,13 +300,14 @@ position: relative;
 .block {
   &.left {
     margin-left: calc(100% - 555px);
-    padding-right: 24px;
+    padding-right: 30px;
     @media only screen and (max-width: $screen-lg) {
       margin-left: calc(100% - 455px);
     }
     @media only screen and (max-width: $screen-md) {
       width: 720px;
       margin: 0 auto;
+      padding-right: 0px;
     }
     @media only screen and (max-width: $screen-sm) {
       width: 100%;
@@ -233,14 +315,16 @@ position: relative;
     }
   }
   &.right {
-    padding-left: 24px;
+    padding-left: 30px;
     width: 600px;
     text-align: left !important;
     @media only screen and (max-width: $screen-lg) {
       width: 600px;
     }
     @media only screen and (max-width: $screen-md) {
-      width: 450px;
+      width: 720px;
+      margin: 0 auto;
+      padding-left: 0px;
     }
     @media only screen and (max-width: $screen-sm) {
       width: 100%;

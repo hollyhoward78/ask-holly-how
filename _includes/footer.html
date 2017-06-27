@@ -58,21 +58,31 @@
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
   <script>
-    var scrollNum;
+    var scrollNum=0;
+    var navPad = 25;
+    document.getElementById('ahh-nav').style.paddingTop = navPad + 'px';
+    document.getElementById('ahh-nav').style.paddingBottom = navPad + 'px';
+    console.log(scrollNum+ ','+ navPad);
+
     window.addEventListener('scroll', function () {
       // ((Math.sin(window.scrollY) + 1) * 24 ) + 'px'
       //((Math.sin(window.scrollY/200) + 1) * 24 )
       //document.getElementById('ahh-arrow').style.fontSize = ((Math.sin(window.scrollY/400) + 1) * 24 ) + 'px'//Math.sin(1 / window.scrollY % 360) + 'px'
       //document.getElementById('ahh-arrow').style.transform = 'rotateZ(' + window.scrollY % 360 + 'deg)'
 
-        scrollNum = (window.scrollY/2);
-        console.log(scrollNum);
+        scrollNum = ((window.scrollY/24) * 1);
+        console.log(scrollNum+ ','+ navPad);
         if (scrollNum <= 70) {
-          document.querySelector('.ahh-arrow').getElementById('st0').style.strokeDashoffset = scrollNum;
-          document.querySelector('.ahh-arrow').getElementById('st1').style.transform = scrollNum;
+          //document.querySelector('.ahh-arrow').getElementById('st0').style.strokeDashoffset = scrollNum;
+        //  document.querySelector('.ahh-arrow').getElementById('st1').style.transform = "translate(scrollNum,10)";
+          document.getElementById('ahh-nav').style.paddingTop = (navPad - scrollNum) + 'px';
+          document.getElementById('ahh-nav').style.paddingBottom = (navPad - scrollNum) + 'px';
         } else {
-          document.querySelector('.ahh-arrow').getElementById('st0').style.strokeDashoffset = 70;
+          //document.querySelector('.ahh-arrow').getElementById('st0').style.strokeDashoffset = 70;
+          navPad = 25;
         }
+
+
 
     })
 

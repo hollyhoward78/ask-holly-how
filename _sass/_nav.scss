@@ -30,11 +30,13 @@ nav.navbar {
     margin-bottom: 25px;
     font-weight: normal;
     font-family: $font-family-sans-serif-bold;
+    border-bottom: solid 2px transparent;
     &.active {
       border-bottom: solid 2px $navy;
     }
     &:hover {
       color: $navy;
+      border-bottom: solid 2px $navy;
     }
 }
 
