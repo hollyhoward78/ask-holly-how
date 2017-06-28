@@ -69,10 +69,10 @@
 
         var scrollNum = parseInt(window.scrollY);
         var navPad = 25;
-        console.log(scrollNum);
+        //console.log(scrollNum);
 
         if ( scrollNum >= 0 && scrollNum <= 25 ) {
-          console.log('scrollNum is ' + scrollNum);
+        //  console.log('scrollNum is ' + scrollNum);
           document.getElementById('ahh-nav').style.paddingTop = navPad + 'px';
           document.getElementById('ahh-nav').style.paddingBottom = navPad + 'px';
           document.querySelector('#ahh-top-logo').style.strokeOpacity = 1;
@@ -92,7 +92,7 @@
           //document.getElementById('ahh-arrow').style.transform = 'rotateZ(' + window.scrollY % 360 + 'deg)'
 
             scrollNum = ((window.scrollY/8) * 1);
-            console.log(scrollNum+ ','+ navPad);
+            //console.log(scrollNum+ ','+ navPad);
             if (scrollNum <= 30) {
               //document.querySelector('#ahh-top-logo').getElementById('st0').style.strokeDashoffset = scrollNum;
               //document.querySelector('.ahh-arrow').getElementById('st1').style.transform = "translate(scrollNum,10)";
@@ -121,34 +121,35 @@
 
         })
 
-        var splittedText = ["grow your business", "write a business plan", "change office culture"];
-
-        var speed = 3000
-
-        function loopThroughSplittedText(splittedText) {
-
-            for (var i = 0; i < splittedText.length; i++) {
-                // for each iteration console.log a word
-                // and make a pause after it
-                (function (i) {
-                    setTimeout(function () {
-                            if (i == 0) {
-                            document.getElementById('action-msg').innerHTML = ''
-                        }
-                        document.getElementById('action-msg').innerHTML = splittedText[i];
-                        console.log(splittedText[i]);
-                        if (i == splittedText.length - 1) {
-                             setTimeout(function () {
-                                loopThroughSplittedText(splittedText);
-                           }, speed)
-                        }
-                    }, speed * i);
-                })(i);
-            };
-        }
-        loopThroughSplittedText(splittedText);
-
       }, false);
     }, false);
 
+  </script>
+  <script>
+    var splittedText = ["grow your business", "write a business plan", "change office culture"];
+
+    var speed = 3000
+
+    function loopThroughSplittedText(splittedText) {
+
+        for (var i = 0; i < splittedText.length; i++) {
+            // for each iteration console.log a word
+            // and make a pause after it
+            (function (i) {
+                setTimeout(function () {
+                        if (i == 0) {
+                        document.getElementById('action-msg').innerHTML = ''
+                    }
+                    document.getElementById('action-msg').innerHTML = splittedText[i];
+                    //console.log(splittedText[i]);
+                    if (i == splittedText.length - 1) {
+                         setTimeout(function () {
+                            loopThroughSplittedText(splittedText);
+                       }, speed)
+                    }
+                }, speed * i);
+            })(i);
+        };
+    }
+    loopThroughSplittedText(splittedText);
   </script>
