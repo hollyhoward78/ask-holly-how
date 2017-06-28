@@ -21,7 +21,7 @@ font-size: 4rem;
 }
 
 h5 {
-font-size: 2.5rem;
+font-size: 2.25rem;
 }
 
 h6 {
@@ -50,6 +50,9 @@ font-size: 2.5rem;}
   font-weight: bold;
 }
 
+.lead {
+  font-size: $font-size-large;
+}
 
 .intro-lead {
   font-size: $font-size-large;
@@ -81,6 +84,11 @@ a, button {
     outline: none;
     outline: 0;
   }
+}
+
+#get-in-touch {
+  font-size: 1.625rem;
+  line-height: 3.5;
 }
 
 .btn-md {
@@ -466,3 +474,36 @@ ul.services-list {
 ul.schedule {
   font-size: .825rem;
 }
+
+// Footer Stuff
+
+#ahh-mdash {
+  letter-spacing: -1px;
+}
+
+// @-webkit-keyframes action-msg-animation {
+//   0%   { opacity: 0; }
+//   100% { opacity: 1; }
+// }
+// @-moz-keyframes action-msg-animation {
+//   0%   { opacity: 0; }
+//   100% { opacity: 1; }
+// }
+// @-o-keyframes action-msg-animation {
+//   0%   { opacity: 0; }
+//   100% { opacity: 1; }
+// }
+// @keyframes action-msg-animation {
+//   0%   { display: none;  }
+//   100% { display: block; }
+// }
+//
+// $animation-rate: 800ms;
+// $animation-delay: 5s;
+//
+// #msg-1 {
+//   -webkit-animation: action-msg-animation $animation-rate infinite linear; /* Safari 4+ */
+//   -moz-animation:    action-msg-animation $animation-rate infinite linear; /* Fx 5+ */
+//   -o-animation:      action-msg-animation $animation-rate infinite linear; /* Opera 12+ */
+//   animation:         action-msg-animation $animation-rate infinite linear; /* IE 10+, Fx 29+ */
+// }
