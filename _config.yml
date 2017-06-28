@@ -47,7 +47,9 @@ incremental: false
 
 # parentsite: https://services.github.com
 # permalink: /articles/:title/
-# gems:
+gems:
+  # - jekyll-assets
+  # - autoprefixer-rails
 #   - jekyll-paginate
 #   - jekyll-sitemap
 #   - jekyll-gist
@@ -66,6 +68,22 @@ incremental: false
 # - script
 # - vendor
 
+# assets:
+#   # compress:
+#   #   css: false | true | default - development: false, production: true
+#   #   js: false | true | default - development: false, production: true
+#   # cache: false | directory | default: .asset-cache
+#   # cdn: https://cdn.example.com
+#   # skip_baseurl_with_cdn: false
+#   # skip_prefix_with_cdn: false
+#   prefix: "/assets"
+#   assets:
+#     - "*.png"
+#     # - "bundle.css"
+#   digest: true
+#   sources:
+#     - "_assets/fonts"
+
 collections:
   pages:
     output: true
@@ -79,7 +97,8 @@ defaults:
   values:
     layout: base
 
-# include:
+include:
+- _assets
 # - _stylesheets
 # - _javascript
 sass:

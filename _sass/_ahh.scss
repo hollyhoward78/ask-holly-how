@@ -1,6 +1,8 @@
+@import 'fonts';
 @import 'bootstrap-custom';
 @import 'nav';
 @import 'mixins';
+
 
 @include responsive_padding_margins();
 
@@ -27,8 +29,8 @@ font-size: 2.25rem;
 h6 {
 font-size: .825rem;
 text-transform: uppercase;
-font-family: $font-family-sans-serif;
-font-weight: bold;
+font-family: "Bianco Sans New Bold";
+font-weight: normal;
 }
 
 .display-1 {
@@ -38,17 +40,31 @@ font-size: 2.5rem;}
   font-size: .75rem;
 }
 
+strong {
+  font-weight: normal;
+}
+
 .serif {
   font-family: $font-family-serif;
+  &.bold {
+    font-family: "Bianco Serif New Bold";
+  }
+  strong {
+    font-family: "Bianco Serif New Bold";
+  }
 }
 
 .sans {
   font-family: $font-family-sans-serif;
+  &.bold {
+    font-family: "Bianco Sans New Bold";
+  }
+  strong {
+    font-family: "Bianco Sans New Bold";
+  }
 }
 
-.bold {
-  font-weight: bold;
-}
+
 
 .lead {
   font-size: $font-size-large;
@@ -83,6 +99,9 @@ a, button {
   &:focus {
     outline: none;
     outline: 0;
+  }
+  strong {
+    font-family: "Bianco Sans New Bold";
   }
 }
 
@@ -480,6 +499,11 @@ ul.schedule {
 
 #ahh-mdash {
   letter-spacing: -1px;
+}
+
+#footer-nav {
+  font-size: .825rem;
+  letter-spacing: .025rem;
 }
 
 #mc_embed_signup {

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 lead">
-          <span><strong>Ask Holly How</strong></span><span id="ahh-mdash">&nbsp;&nbsp;&mdash;&mdash;&mdash;&nbsp;&nbsp;</span>
+          <span class="sans"><strong>Ask Holly How</strong></span><span id="ahh-mdash">&nbsp;&nbsp;&mdash;&mdash;&mdash;&nbsp;&nbsp;</span>
           to
           <span id="action-msg">grow your business</span>
           <!-- <span class="action-msg" id="msg-1">grow your business</span>
@@ -31,16 +31,16 @@
       </div>
       <div class="row m-xs-t-2">
         <div class="col-xs-12">
-          <ul class="text-uppercase bold">
+          <ul id="footer-nav" class="text-uppercase sans">
             <!-- ** Write a for loop here once all of the pages are dynamically generated in the '_pages' folder -->
             {% assign pages = site.pages | sort: "order" %}
             {% for page in pages %}
               {% if page.title != "Home" %}
-                <li><a href="{{ page.url }}">{{page.title}}</a></li>
+                <li><a href="{{ page.url }}"><strong>{{page.title}}</strong></a></li>
               {% endif %}
             {% endfor %}
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms of Use</a></li>
+            <li><strong><a href="#">Privacy</strong></a></li>
+            <li><strong><a href="#">Terms of Use</strong></a></li>
           </ul>
         </div>
       </div>
