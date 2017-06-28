@@ -1,4 +1,4 @@
-<div class="row bg cream p-sm-y-6">
+<div class="row bg cream p-sm-t-6">
   <div class="container-fluid">
     <div class="container">
       <div class="row">
@@ -102,12 +102,15 @@
 
               document.getElementById('ahh-nav').style.paddingTop = (navPad - scrollNum) + 'px';
               document.getElementById('ahh-nav').style.paddingBottom = (navPad - scrollNum) + 'px';
+              //document.getElementById('ahh-nav').style.backgroundColor = 'transparent';
+              document.getElementById('ahh-nav').style.backgroundColor = 'rgba(255, 221, 201,'+ scrollNum/24 +')';
 
             } else if (scrollNum > 30) {
-
+                document.getElementById('ahh-nav').style.backgroundColor = 'rgba(255, 221, 201, 1)';
                 //document.getElementById('ahh-nav').style.backgroundColor = '#ffddc9';
             } else {
               navPad = 25;
+
             }
 
 

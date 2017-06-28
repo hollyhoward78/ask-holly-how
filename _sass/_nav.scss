@@ -7,6 +7,14 @@ nav.navbar {
   height: 75px;
 }
 
+nav#ahh-nav {
+  background-color: transparent;
+  border-color: transparent;
+  ul.navbar-nav {
+    background-color: transparent;
+  }
+}
+
 .nav>li>a {
     position: relative;
     display: block;
@@ -20,6 +28,11 @@ nav.navbar {
     letter-spacing: .075rem;
     color: $navy;
     background-color: $pink-cream;
+}
+
+.go-right {
+  position: absolute;
+  right: 0;
 }
 
 .navbar-default .navbar-nav>li>a {

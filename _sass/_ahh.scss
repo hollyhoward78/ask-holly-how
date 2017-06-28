@@ -157,7 +157,7 @@ a, button {
 
 
 #top-header {
-  padding: 8rem 1rem 1rem 1rem;
+  padding: 6rem 1rem 12rem 1rem;
   text-align: center;
     position: relative;
     margin: 0 auto;
@@ -191,6 +191,8 @@ a, button {
 font-family: "Bianco Serif New", Times, sans-serif;
 font-size: 7.25rem;
 position: relative;
+margin-top:0;
+margin-bottom: 0;
     @media only screen and (max-width: $screen-lg) {
       font-size: 6rem;
     }
@@ -205,10 +207,14 @@ position: relative;
     }
 }
 
-#start-finish-home {
+.home-top-img {
   position: absolute;
-  top: calc(50% - 235px);
-  left: calc(50% - 355px);
+}
+
+#start-finish-home {
+  top: calc(50% - 10rem);
+      left: calc(50% - 16rem);
+      max-width: 280px;
   @media only screen and (max-width: $screen-lg) {
     width: 240px;
     top: calc(50% - 205px);
@@ -221,12 +227,60 @@ position: relative;
   }
 }
 
+#how-head-home {
+  top: calc(50% + 10rem);
+    left: calc(50% + 15rem);
+    width: 210px;
+}
+
+#growth-home {
+  top: calc(50% + 11rem);
+left: calc(50% - 13rem);
+max-width: 370px;
+}
+
+#column-home {
+  top: calc(50% - .125rem);
+  left: calc(50% - 29.25rem);
+  width: 185px;
+    @media only screen and (max-width: $screen-lg) {
+      top: calc(50% + 70px);
+      left: calc(50% - 585px);
+      width: 185px;
+  }
+@media only screen and (max-width: $screen-md) {
+  top: calc(50% + 70px);
+  left: calc(50% - 585px);
+  width: 185px;
+  }
+}
+
+#arrow-home {
+  top: calc(50% - 5rem);
+  left: calc(50% + 8rem);
+  max-width: 350px;
+  @media only screen and (max-width: $screen-lg) {
+    top: calc(50% + 25px);
+    left: calc(50% + 205px);
+  }
+  @media only screen and (max-width: $screen-md) {
+    top: calc(50% + 25px);
+    left: calc(50% + 205px);
+  }
+}
+
 .underline {
   // text-decoration: underline;
  //border-bottom: solid 3px;
  background-size: 1px 1em;
     box-shadow: inset 0 -0.1625em inherit, inset 0 -0.2em $navy;
     display: inline;
+
+    a {
+      &:hover {
+        border-bottom: none;
+      }
+    }
 }
 
 
@@ -251,6 +305,9 @@ position: relative;
      background-size: 1px 1em;
         box-shadow: inset 0 -0.1625em $green, inset 0 -0.2em $navy;
         display: inline;
+        &:hover {
+          box-shadow: inset 0 -0.15em $green, inset 0 -0.2em $navy;
+        }
     }
     .btn-md {
       border: solid .12rem $navy;

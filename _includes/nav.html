@@ -64,7 +64,7 @@
 
         {% for item in site.pages %}
           {% if item.title == "The Book" %}
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav go-right">
             {% if page.url == item.url %}
                 <li class=""><a href="{{ item.url }}" class="active">{{item.title}}</a></li>
             {% else %}
