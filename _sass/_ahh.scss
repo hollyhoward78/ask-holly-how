@@ -165,12 +165,12 @@ a, button {
 
 
 #top-header {
-  padding: 6rem 1rem 12rem 1rem;
+  padding: 9rem 1rem 15rem 1rem;
   text-align: center;
     position: relative;
     margin: 0 auto;
   span#for-creative {
-    width: 320px;
+    width: 375px;
     display: inline-block;
     @media only screen and (max-width: $screen-lg) {
       width: 240px;
@@ -180,7 +180,7 @@ a, button {
     }
   }
   span#entrepeneurs {
-    width: 200px;
+    width: 243px;
     display: inline-block;
     @media only screen and (max-width: $screen-lg) {
       width: 140px;
@@ -221,7 +221,7 @@ margin-bottom: 0;
 
 #start-finish-home {
   top: calc(50% - 10rem);
-      left: calc(50% - 16rem);
+      left: calc(50% - 15rem);
       max-width: 280px;
   @media only screen and (max-width: $screen-lg) {
     width: 240px;
@@ -255,8 +255,8 @@ max-width: 370px;
 
 #column-home {
   top: calc(50% - .125rem);
-  left: calc(50% - 29.25rem);
-  width: 185px;
+  left: calc(50% - 29rem);
+  width: 190px;
     @media only screen and (max-width: $screen-lg) {
       top: calc(50% + 70px);
       left: calc(50% - 585px);
