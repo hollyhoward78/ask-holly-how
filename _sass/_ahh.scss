@@ -481,6 +481,52 @@ ul.schedule {
   letter-spacing: -1px;
 }
 
+#mc_embed_signup {
+  form {
+    .mc-field-group {
+      input#mce-EMAIL {
+
+        border: solid 2px $navy;
+height: 76.5px;
+min-width: 325px;
+margin: 0 .5rem 0 0;
+padding: 1rem;
+display: inline-block;
+float: left;
+font-size: 1.25rem;
+background-color: transparent;
+&::placeholder {
+  color: $navy;
+}
+        &:focus {
+          outline: none;
+          -webkit-appearance: none;
+          background-color: lighten($cream, 2%);
+          &::placeholder {
+            opacity: .25;
+
+          }
+        }
+      }
+      button#mc-embedded-subscribe {
+        background-color: transparent;
+        border: solid 2px $navy;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: .2rem;
+        font-size: .75rem;
+        padding: .75rem 1rem .625rem 1.125rem;
+        line-height: 1;
+        text-align: center;
+        &:hover {
+          background-color: $navy;
+          color: $cream;
+        }
+      }
+    }
+  }
+}
+
 // @-webkit-keyframes action-msg-animation {
 //   0%   { opacity: 0; }
 //   100% { opacity: 1; }

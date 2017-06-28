@@ -1,7 +1,0 @@
----
-layout: home
-title: Home
-introduction: This is the introduction
-conclusion: This is some more text.
----
-This is the home page
