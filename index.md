@@ -7,4 +7,3 @@ sections:
     section_title: First Home Section
 ---
 This is the home page
-

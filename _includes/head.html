@@ -25,7 +25,11 @@
     <meta content="black" name="apple-mobile-web-app-status-bar-style" />
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <link rel="icon" href="favicon.ico">
-    <title>{{ page.title }}</title>
+    {% if page.layout == 'home' %}
+      <title>{{ page.title }}</title>
+    {% else %}
+      <title>{{site.title}} {{site.title_separator}} {{ page.title }}</title>
+    {% endif %}
 
     <!-- Additional CSS -->
     <link rel="stylesheet" href="/style.css">
