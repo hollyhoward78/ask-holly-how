@@ -63,7 +63,14 @@
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
   <script>
-
+  var scrollNum = parseInt(window.scrollY);
+  var navPad = 25;
+  if ( scrollNum >= 0 && scrollNum <= 25 ) {
+  //  console.log('scrollNum is ' + scrollNum);
+    document.getElementById('ahh-nav').style.paddingTop = navPad + 'px';
+    document.getElementById('ahh-nav').style.paddingBottom = navPad + 'px';
+  }
+  //console.log(scrollNum);
     document.addEventListener('DOMContentLoaded', function() {
       window.addEventListener('load', function() {
 
