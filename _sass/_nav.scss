@@ -30,9 +30,8 @@ nav#ahh-nav {
     background-color: $pink-cream;
 }
 
-.go-right {
-  position: absolute;
-  right: 0;
+.navbar-right {
+    padding-right: 15px;
 }
 
 .navbar-default .navbar-nav>li>a {
