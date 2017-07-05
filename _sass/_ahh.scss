@@ -93,6 +93,24 @@ strong {
   font-size: $font-size-h4;
 }
 
+h6.up-next {
+  display: inline-block;
+  padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+  background-color: $pink;
+}
+
+h6.figure-number {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+  background-color: $gold;
+  color: $cream;
+}
+
+.full-width {
+  width: 100%;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -286,6 +304,12 @@ margin-bottom: 0;
     width: 115px;
 }
 
+#eye-programs {
+  top: 0px;
+  left: 0px;
+  width: 115px;
+}
+
 #growth-home {
   top: calc(50% + 11rem);
 left: calc(50% - 13rem);
@@ -336,6 +360,10 @@ max-width: 370px;
     }
 }
 
+.bg-cream {
+  background-color: $cream;
+  color: $navy;
+}
 
 .bg {
   background-color: $cream;
@@ -425,6 +453,28 @@ max-width: 370px;
 
 .border-navy {
   border: solid 2px $navy;
+}
+
+.services-border-navy-left {
+  border-right: solid 1px $navy;
+  border-bottom: solid 1px $navy;
+  border-top: solid 1px $navy;
+  border-left: solid 2px $navy;
+}
+
+.services-border-navy-right {
+  border-right: solid 2px $navy;
+  border-bottom: solid 1px $navy;
+  border-top: solid 1px $navy;
+  border-left: solid 1px $navy;
+}
+
+.border-navy-bottom {
+  border-bottom: solid 1px $navy;
+}
+
+.border-navy-top {
+  border-top: solid 1px $navy;
 }
 
 .flex-full-height {
