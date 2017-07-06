@@ -1,57 +1,58 @@
 <div class="row bg cream p-sm-t-6 p-xs-t-3">
-  <div class="container-fluid">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 lead">
-          <span class="sans"><strong>Ask Holly How</strong></span><span id="ahh-mdash">&nbsp;&nbsp;&mdash;&mdash;&mdash;&nbsp;&nbsp;</span>
-          to
-          <span id="action-msg">grow your business</span>
-          <!-- <span class="action-msg" id="msg-1">grow your business</span>
-          <span class="action-msg" id="msg-2">write a business plan</span>
-          <span class="action-msg" id="msg-3">change office culture</span> -->
-        </div>
-      </div>
-      <div class="row m-xs-t-2">
-        <div class="col-xs-12 col-md-4">
-          <p>
-            <a href="mailto:hhoward@askhollyhow.com" target="_blank">hhoward@askhollyhow.com</a>
-            <br/> New York City
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-3">
-          <p>
-            <a href="http://twitter.com/askhollyhow" target="_blank">Twitter</a><br/>
-            <a href="http://facebook.com/askhollyhow" target="_blank">Facebook</a><br/>
-            <a href="http://instagram.com/AskHollyHow" target="_blank">Instagram</a>
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-5">
-          {% include email-signup.html %}
-        </div>
-      </div>
-      <div class="row m-xs-t-2">
-        <div class="col-xs-12">
-          <ul id="footer-nav" class="text-uppercase sans">
-            <!-- ** Write a for loop here once all of the pages are dynamically generated in the '_pages' folder -->
-            {% assign pages = site.pages | sort: "order" %}
-            {% for page in pages %}
-              {% if page.title != "Home" %}
-                <li><a href="{{ page.url }}"><strong>{{page.title}}</strong></a></li>
-              {% endif %}
-            {% endfor %}
-            <li><strong><a href="#">Privacy</strong></a></li>
-            <li><strong><a href="#">Terms of Use</strong></a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row m-sm-t-2">
-        <div class="col-xs-12">
-          <p class="caption">&copy; 2017 Holly Howard Consulting</p>
-        </div>
-
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-xs-12 lead">
+        <span class="sans"><strong>Ask Holly How</strong></span><span id="ahh-mdash">&nbsp;&nbsp;&mdash;&mdash;&mdash;&nbsp;&nbsp;</span>
+        to
+        <span id="action-msg">grow your business</span>
+        <!-- <span class="action-msg" id="msg-1">grow your business</span>
+        <span class="action-msg" id="msg-2">write a business plan</span>
+        <span class="action-msg" id="msg-3">change office culture</span> -->
       </div>
     </div>
+
+    <div class="row m-xs-t-2">
+      <div class="col-xs-12 col-md-4">
+        <p>
+        <a href="mailto:hhoward@askhollyhow.com" target="_blank">hhoward@askhollyhow.com</a>
+        <br/> New York City
+        </p>
+      </div>
+    <div class="col-xs-12 col-md-3">
+      <p>
+      <a href="http://twitter.com/askhollyhow" target="_blank">Twitter</a><br/>
+      <a href="http://facebook.com/askhollyhow" target="_blank">Facebook</a><br/>
+      <a href="http://instagram.com/AskHollyHow" target="_blank">Instagram</a>
+      </p>
+    </div>
+      <div class="col-xs-12 col-md-5">
+        {% include email-signup.html %}
+      </div>
+    </div>
+
+    <div class="row m-xs-t-2">
+      <div class="col-xs-12">
+      <ul id="footer-nav" class="text-uppercase sans">
+      <!-- ** Write a for loop here once all of the pages are dynamically generated in the '_pages' folder -->
+      {% assign pages = site.pages | sort: "order" %}
+      {% for page in pages %}
+      {% if page.title != "Home" %}
+      <li><a href="{{ page.url }}"><strong>{{page.title}}</strong></a></li>
+      {% endif %}
+      {% endfor %}
+      <li><strong><a href="#">Privacy</strong></a></li>
+      <li><strong><a href="#">Terms of Use</strong></a></li>
+      </ul>
+      </div>
+    </div>
+
+    <div class="row m-sm-t-2">
+      <div class="col-xs-12">
+      <p class="caption">&copy; 2017 Holly Howard Consulting</p>
+      </div>
+    </div>
+
   </div>
 </div>
 

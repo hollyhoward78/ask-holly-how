@@ -12,6 +12,7 @@ $light-pink:      rgb(251, 151, 142);
 $light-blue:      rgb(154, 212, 202);
 $tan-pink:        rgb(233,182,172);
 $light-tan-pink:  rgb(247,219,213);
+$light-tan-soon:  rgb(233,182,171);
 $gold:            rgb(195,120,42);
 
 //== Typography
@@ -33,9 +34,9 @@ $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 $font-size-h1:            floor(($font-size-base * 3.4)); // ~68px
 $font-size-h2:            floor(($font-size-base * 2.7)); // ~54px
 $font-size-h3:            ceil(($font-size-base * 2)); // ~40px
-$font-size-h4:            ceil(($font-size-base * 1.5)); // ~18px
-$font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-h4:            ceil(($font-size-base * 1.5)); // ~30px
+$font-size-h5:            $font-size-base; // 20px
+$font-size-h6:            ceil(($font-size-base * 0.85)); // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.428571429 !default; // 20/14
