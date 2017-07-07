@@ -28,6 +28,12 @@ font-size: 4rem;
   }
 }
 
+@media only screen and (max-width: $screen-sm) {
+  h2.services {
+    font-size: 2rem;
+  }
+}
+
 h5 {
 font-size: 2.25rem;
 }
@@ -239,7 +245,7 @@ a, button {
     position: relative;
     margin: 0 auto;
   span#for-creative {
-    width: 375px;
+    width: 311px;
     display: inline-block;
     @media only screen and (max-width: $screen-lg) {
       width: 240px;
@@ -252,7 +258,7 @@ a, button {
     }
   }
   span#entrepeneurs {
-    width: 243px;
+    width: 201px;
     display: inline-block;
     @media only screen and (max-width: $screen-lg) {
       width: 140px;
@@ -295,9 +301,9 @@ margin-bottom: 0;
 }
 
 #start-finish-home {
-  top: calc(50% - 8rem);
-  left: calc(50% - 13.5rem);
-  max-width: 250px;
+  top: calc(50% - 7rem);
+  left: calc(50% - 11.5rem);
+  max-width: 200px;
   @media only screen and (max-width: $screen-lg) {
     top: calc(50% - 6rem);
     left: calc(50% - 13rem);
@@ -326,9 +332,9 @@ margin-bottom: 0;
 }
 
 #how-head-home {
-  top: calc(50% + 10rem);
-  left: calc(50% + 15rem);
-  width: 210px;
+  top: calc(50% + 9rem);
+  left: calc(50% + 14rem);
+  width: 180px;
   @media only screen and (max-width: $screen-lg) {
     top: calc(50% + 9rem);
     left: calc(50% + 13rem);
@@ -352,9 +358,9 @@ margin-bottom: 0;
 }
 
 #eye-home {
-  top: calc(50% - 15rem);
-  left: calc(50% + 25rem);
-  width: 115px;
+  top: calc(50% - 16rem);
+  left: calc(50% + 11.25rem);
+  width: 95px;
   @media only screen and (max-width: $screen-lg) {
     top: calc(50% - 12rem);
     left: calc(50% + 21rem);
@@ -386,7 +392,7 @@ margin-bottom: 0;
 #growth-home {
   top: calc(50% + 11rem);
   left: calc(50% - 13rem);
-  max-width: 370px;
+  max-width: 280px;
   @media only screen and (max-width: $screen-lg) {
     top: calc(50% + 8rem);
     left: calc(50% - 11rem);
@@ -411,8 +417,8 @@ margin-bottom: 0;
 
 #column-home {
   top: calc(50% - .125rem);
-  left: calc(50% - 26.5rem);
-  width: 190px;
+  left: calc(50% - 24rem);
+  width: 160px;
   @media only screen and (max-width: $screen-lg) {
     top: calc(50% + .125rem);
     left: calc(50% - 23rem);
@@ -432,9 +438,9 @@ margin-bottom: 0;
 }
 
 #arrow-home {
-  top: calc(50% - 5rem);
-  left: calc(50% + 8rem);
-  max-width: 350px;
+  top: calc(50% - 8rem);
+  left: calc(50% + 7rem);
+  max-width: 255px;
   @media only screen and (max-width: $screen-lg) {
     top: calc(50% - 4rem);
     left: calc(50% + 8rem);
