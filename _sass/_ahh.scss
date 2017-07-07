@@ -40,6 +40,11 @@ font-size: 2.5rem;}
   font-size: .75rem;
 }
 
+p.caption a {
+  font-family: "Bianco Sans New Bold";
+  border-bottom: 1px solid $navy;
+}
+
 figcaption {
   font-size: $font-size-medium;
   margin-top: 10px;
@@ -96,7 +101,7 @@ strong {
 h6.up-next {
   display: inline-block;
   padding: 0.5rem 0.5rem 0.3rem 0.5rem;
-  background-color: $pink;
+  background-color: $tan-pink;
 }
 
 h6.figure-number {
@@ -105,6 +110,7 @@ h6.figure-number {
   padding: 0.5rem 0.5rem 0.3rem 0.5rem;
   background-color: $gold;
   color: $cream;
+  margin-top: 25px;
 }
 
 .full-width {
@@ -558,19 +564,17 @@ margin-bottom: 0;
   border-right: solid 1px $navy;
   border-bottom: solid 1px $navy;
   border-top: solid 1px $navy;
-  border-left: solid 2px $navy;
   @media only screen and (max-width: $screen-sm) {
-    border-right: solid 2px $navy;
+    border-right: none;
   }
 }
 
 .services-border-navy-right {
-  border-right: solid 2px $navy;
   border-bottom: solid 1px $navy;
   border-top: solid 1px $navy;
   border-left: solid 1px $navy;
   @media only screen and (max-width: $screen-sm) {
-    border-left: solid 2px $navy;
+    border-right: none;
   }
 }
 
@@ -629,6 +633,9 @@ img.alignright {
   padding: .5em .5em .3em .5em;
   display: inline-block;
   font-size: $font-size-h5;
+  @media only screen and (max-width: $screen-sm) {
+    margin-top: 90px;
+  }
 }
 
 .book-overview-img {
@@ -774,6 +781,12 @@ ul.schedule li {
         padding: .75rem 1rem .625rem 1.125rem;
         line-height: 1;
         text-align: center;
+        @media only screen and (max-width: 768px) {
+          margin-top: 0em !important;
+        }
+        @media only screen and (max-width: 450px) {
+          margin-top: 1.25em !important;
+        }
         &:hover {
           background-color: $navy;
           color: $cream;
