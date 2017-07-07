@@ -22,6 +22,12 @@ font-family: "Bianco Serif New", Times, sans-serif;
 font-size: 4rem;
 }
 
+@media only screen and (max-width: $screen-sm) {
+  h2.sans {
+    font-size: 2rem;
+  }
+}
+
 h5 {
 font-size: 2.25rem;
 }
@@ -451,13 +457,16 @@ margin-bottom: 0;
   }
 }
 
+#row-2 {
+  display: none;
+}
+
 .underline {
   // text-decoration: underline;
  //border-bottom: solid 3px;
- background-size: 1px 1em;
+    background-size: 1px 1em;
     box-shadow: inset 0 -0.1625em inherit, inset 0 -0.2em $navy;
     display: inline;
-
     a {
       &:hover {
         border-bottom: none;
@@ -741,6 +750,7 @@ ul.schedule li {
 
 #footer-nav {
   font-size: .825rem;
+  font-family: $font-family-sans-serif;
   letter-spacing: .025rem;
 }
 
@@ -803,7 +813,8 @@ ul.schedule li {
       .mc-field-group {
         input#mce-EMAIL {
             &:focus {
-              background-color: lighten($pink, 2%);
+              background-color: lighten($cream, 2%);
+              color: $navy;
             }
           }
         }

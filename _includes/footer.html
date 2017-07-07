@@ -70,6 +70,8 @@
   //  console.log('scrollNum is ' + scrollNum);
     document.getElementById('ahh-nav').style.paddingTop = navPad + 'px';
     document.getElementById('ahh-nav').style.paddingBottom = navPad + 'px';
+
+
   }
   //console.log(scrollNum);
     document.addEventListener('DOMContentLoaded', function() {
@@ -78,6 +80,16 @@
         var scrollNum = parseInt(window.scrollY);
         var navPad = 25;
         //console.log(scrollNum);
+        document.getElementById('more-tests').onclick = function(){
+          document.getElementById('row-2').style.display = 'block';
+          document.getElementById('more-tests').style.display = 'none';
+        };
+
+        document.getElementById('less-tests').onclick = function(){
+          document.getElementById('row-2').style.display = 'none';
+          document.getElementById('more-tests').style.display = 'block';
+        };
+
 
         if ( scrollNum >= 0 && scrollNum <= 25 ) {
         //  console.log('scrollNum is ' + scrollNum);

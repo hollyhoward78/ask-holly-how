@@ -1,5 +1,4 @@
 
-
 nav.navbar {
   background-color: $pink-cream;
   border-color: $pink-cream;
@@ -132,12 +131,25 @@ nav#ahh-nav {
       margin-bottom: -100px;
     }
 
+    .navbar-collapse.collapse {
+      transition: height 0.05s;
+    }
+
+    .navbar-collapse {
+      height: 500px;
+      transition: height 0.05s;
+    }
+
+    .navbar-default .navbar-nav li a:hover {
+      border-bottom: 2px solid transparent;
+    }
+
     .navbar-nav {
       margin: 30px -15px 0px -15px;
     }
 
     .navbar-right {
-      margin: 0px -15px 0px -15px;
+      margin: -25px -15px 0px -15px;
     }
 
     .navbar .navbar-collapse {
