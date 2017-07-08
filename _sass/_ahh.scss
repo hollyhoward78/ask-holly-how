@@ -242,28 +242,40 @@ a, button {
 #top-header {
   padding: 9rem 1rem 15rem 1rem;
   text-align: center;
-    position: relative;
-    margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
+  @media only screen and (max-width: $screen-xs) {
+    padding: 9rem 0rem 9rem 0rem;
+  }
   span#for-creative {
     width: 311px;
     display: inline-block;
-    @media only screen and (max-width: $screen-lg) {
-      width: 240px;
+    @media only screen and (max-width: 1080px) {
+      width: 311px;
     }
     @media only screen and (max-width: $screen-md) {
       width: 206px;
     }
     @media only screen and (max-width: $screen-sm) {
+      width: 150px;
+    }
+    @media only screen and (max-width: $screen-xs) {
       width: 15px;
     }
   }
   span#entrepeneurs {
     width: 201px;
     display: inline-block;
-    @media only screen and (max-width: $screen-lg) {
-      width: 140px;
+    @media only screen and (max-width: 1080px) {
+      width: 201px;
+    }
+    @media only screen and (max-width: $screen-md) {
+      width: 180px;
     }
     @media only screen and (max-width: $screen-sm) {
+      width: 180px;
+    }
+    @media only screen and (max-width: $screen-xs) {
       display: none;
     }
   }
@@ -282,11 +294,8 @@ font-size: 6rem;
 position: relative;
 margin-top:0;
 margin-bottom: 0;
-    @media only screen and (max-width: $screen-lg) {
-      font-size: 5rem;
-    }
     @media only screen and (max-width: 1080px) {
-      font-size: 4rem;
+      font-size: 4.25rem;
     }
     @media only screen and (max-width: $screen-md) {
       font-size: 3rem;
@@ -304,11 +313,6 @@ margin-bottom: 0;
   top: calc(50% - 7rem);
   left: calc(50% - 11.5rem);
   max-width: 200px;
-  @media only screen and (max-width: $screen-lg) {
-    top: calc(50% - 6rem);
-    left: calc(50% - 13rem);
-    width: 230px;
-  }
   @media only screen and (max-width: $screen-md) {
     top: calc(50% - 5rem);
     left: calc(50% - 8rem);
@@ -325,8 +329,8 @@ margin-bottom: 0;
     width: 145px;
   }
   @media only screen and (max-width: $screen-xs) {
-    top: calc(50% - 9rem);
-    left: calc(50% + 3rem);
+    top: calc(50% - 6rem);
+    left: calc(50% + 2rem);
     width: 145px;
   }
 }
@@ -335,11 +339,6 @@ margin-bottom: 0;
   top: calc(50% + 9rem);
   left: calc(50% + 14rem);
   width: 180px;
-  @media only screen and (max-width: $screen-lg) {
-    top: calc(50% + 9rem);
-    left: calc(50% + 13rem);
-    max-width: 200px;
-  }
   @media only screen and (max-width: $screen-md) {
     top: calc(50% + 5rem);
     left: calc(50% + 8rem);
@@ -351,20 +350,18 @@ margin-bottom: 0;
     max-width: 140px;
   }
   @media only screen and (max-width: $screen-xs) {
-    top: calc(50% + 5rem);
-    left: calc(50% - 1rem);
-    max-width: 140px;
+    display: none;
   }
 }
 
 #eye-home {
   top: calc(50% - 16rem);
-  left: calc(50% + 11.25rem);
+  left: calc(50% + 13rem);
   width: 95px;
-  @media only screen and (max-width: $screen-lg) {
-    top: calc(50% - 12rem);
-    left: calc(50% + 21rem);
-    width: 115px;
+  @media only screen and (max-width: 1080px) {
+    top: calc(50% - 12.5rem);
+    left: calc(50% + 6.75rem);
+    width: 75px;
   }
   @media only screen and (max-width: $screen-md) {
     top: calc(50% - 10rem);
@@ -377,9 +374,9 @@ margin-bottom: 0;
     width: 95px;
   }
   @media only screen and (max-width: $screen-xs) {
-    top: calc(50% - 13rem);
-    left: calc(50% + 4rem);
-    width: 95px;
+    top: calc(50% - 9rem);
+    left: calc(50% - 2rem);
+    width: 75px;
   }
 }
 
@@ -391,13 +388,8 @@ margin-bottom: 0;
 
 #growth-home {
   top: calc(50% + 11rem);
-  left: calc(50% - 13rem);
+  left: calc(50% - 8rem);
   max-width: 280px;
-  @media only screen and (max-width: $screen-lg) {
-    top: calc(50% + 8rem);
-    left: calc(50% - 11rem);
-    max-width: 310px;
-  }
   @media only screen and (max-width: $screen-md) {
     top: calc(50% + 10rem);
     left: calc(50% - 7rem);
@@ -409,9 +401,9 @@ margin-bottom: 0;
     max-width: 220px;
   }
   @media only screen and (max-width: $screen-xs) {
-    top: calc(50% + 10rem);
+    top: calc(50% + 7rem);
     left: calc(50% - 8rem);
-    max-width: 220px;
+    max-width: 230px;
   }
 }
 
@@ -419,11 +411,6 @@ margin-bottom: 0;
   top: calc(50% - .125rem);
   left: calc(50% - 24rem);
   width: 160px;
-  @media only screen and (max-width: $screen-lg) {
-    top: calc(50% + .125rem);
-    left: calc(50% - 23rem);
-    width: 155px;
-  }
   @media only screen and (max-width: $screen-md) {
   top: calc(50% - .875rem);
   left: calc(50% - 15.5rem);
@@ -441,11 +428,6 @@ margin-bottom: 0;
   top: calc(50% - 8rem);
   left: calc(50% + 7rem);
   max-width: 255px;
-  @media only screen and (max-width: $screen-lg) {
-    top: calc(50% - 4rem);
-    left: calc(50% + 8rem);
-    max-width: 310px;
-  }
   @media only screen and (max-width: $screen-md) {
     top: calc(50% - 5rem);
     left: calc(50% + 1rem);
@@ -457,9 +439,7 @@ margin-bottom: 0;
     max-width: 180px;
   }
   @media only screen and (max-width: $screen-xs) {
-    top: calc(50% - 2rem);
-    left: calc(50% - 10rem);
-    max-width: 180px;
+    display: none;
   }
 }
 
