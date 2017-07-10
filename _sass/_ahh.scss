@@ -28,6 +28,12 @@ font-size: 4rem;
   }
 }
 
+@media only screen and (max-width: $screen-xs) {
+  h2.sans {
+    font-size: 1.75rem;
+  }
+}
+
 @media only screen and (max-width: $screen-sm) {
   h2.services {
     font-size: 2rem;
@@ -244,39 +250,37 @@ a, button {
   text-align: center;
   position: relative;
   margin: 0 auto;
+  @media only screen and (max-width: $screen-sm) {
+    padding: 9rem 0rem 9rem 0rem;
+  }
   @media only screen and (max-width: $screen-xs) {
     padding: 9rem 0rem 9rem 0rem;
+    text-align: left;
   }
   span#for-creative {
     width: 311px;
     display: inline-block;
     @media only screen and (max-width: 1080px) {
-      width: 311px;
+      width: 222px;
     }
     @media only screen and (max-width: $screen-md) {
-      width: 206px;
+      width: 222px;
     }
     @media only screen and (max-width: $screen-sm) {
-      width: 150px;
-    }
-    @media only screen and (max-width: $screen-xs) {
-      width: 15px;
+      width: 166px;
     }
   }
   span#entrepeneurs {
     width: 201px;
     display: inline-block;
     @media only screen and (max-width: 1080px) {
-      width: 201px;
+      width: 144px;
     }
     @media only screen and (max-width: $screen-md) {
-      width: 180px;
+      width: 144px;
     }
     @media only screen and (max-width: $screen-sm) {
-      width: 180px;
-    }
-    @media only screen and (max-width: $screen-xs) {
-      display: none;
+      width: 105px;
     }
   }
 
@@ -298,10 +302,16 @@ margin-bottom: 0;
       font-size: 4.25rem;
     }
     @media only screen and (max-width: $screen-md) {
-      font-size: 3rem;
+      font-size: 4.25rem;
     }
     @media only screen and (max-width: $screen-sm) {
       font-size: 2.75rem;
+    }
+    @media only screen and (max-width: $screen-xs) {
+      font-size: 2.25rem;
+    }
+    @media only screen and (max-width: 320px) {
+      font-size: 2rem;
     }
 }
 
@@ -313,25 +323,25 @@ margin-bottom: 0;
   top: calc(50% - 7rem);
   left: calc(50% - 11.5rem);
   max-width: 200px;
-  @media only screen and (max-width: $screen-md) {
-    top: calc(50% - 5rem);
+  @media only screen and (max-width: 1080px) {
+    top: calc(50% - 6rem);
     left: calc(50% - 8rem);
-    width: 155px;
+    max-width: 150px;
+  }
+  @media only screen and (max-width: $screen-md) {
+    top: calc(50% - 6rem);
+    left: calc(50% - 8rem);
+    max-width: 150px;
   }
   @media only screen and (max-width: $screen-sm) {
-    top: calc(50% - 5rem);
-    left: calc(50% + 5rem);
-    width: 145px;
-  }
-  @media only screen and (max-width: 513px) {
-    top: calc(50% - 9rem);
-    left: calc(50% + 2rem);
-    width: 145px;
+    top: calc(50% - 6rem);
+    left: calc(50% + 4rem);
+    width: 140px;
   }
   @media only screen and (max-width: $screen-xs) {
-    top: calc(50% - 6rem);
-    left: calc(50% + 2rem);
-    width: 145px;
+    top: calc(50% - 5rem);
+    left: calc(50% + 1.5rem);
+    width: 115px;
   }
 }
 
@@ -339,15 +349,18 @@ margin-bottom: 0;
   top: calc(50% + 9rem);
   left: calc(50% + 14rem);
   width: 180px;
+  @media only screen and (max-width: 1080px) {
+    top: calc(50% + 7rem);
+    left: calc(50% + 10rem);
+    width: 155px;
+  }
   @media only screen and (max-width: $screen-md) {
-    top: calc(50% + 5rem);
-    left: calc(50% + 8rem);
-    max-width: 160px;
+    top: calc(50% + 7rem);
+    left: calc(50% + 10rem);
+    width: 155px;
   }
   @media only screen and (max-width: $screen-sm) {
-    top: calc(50% + 4rem);
-    left: calc(50% + 2rem);
-    max-width: 140px;
+    display: none;
   }
   @media only screen and (max-width: $screen-xs) {
     display: none;
@@ -364,46 +377,56 @@ margin-bottom: 0;
     width: 75px;
   }
   @media only screen and (max-width: $screen-md) {
-    top: calc(50% - 10rem);
-    left: calc(50% + 13rem);
-    width: 95px;
+    top: calc(50% - 12.5rem);
+    left: calc(50% + 6.75rem);
+    width: 75px;
   }
   @media only screen and (max-width: $screen-sm) {
-    top: calc(50% - 10rem);
-    left: calc(50% + 10rem);
-    width: 95px;
-  }
-  @media only screen and (max-width: $screen-xs) {
     top: calc(50% - 9rem);
     left: calc(50% - 2rem);
-    width: 75px;
+    width: 70px;
+  }
+  @media only screen and (max-width: $screen-xs) {
+    top: calc(50% - 8rem);
+    left: calc(50% - 2rem);
+    width: 70px;
+  }
+  @media only screen and (max-width: 320px) {
+    top: calc(50% - 7rem);
+    left: calc(50% - 3rem);
+    width: 70px;
   }
 }
 
 #eye-programs {
   top: 0px;
   left: 0px;
-  width: 115px;
+  width: 95px;
 }
 
 #growth-home {
   top: calc(50% + 11rem);
   left: calc(50% - 8rem);
   max-width: 280px;
+  @media only screen and (max-width: 1080px) {
+    top: calc(50% + 8rem);
+    left: calc(50% - 8rem);
+    max-width: 280px;
+  }
   @media only screen and (max-width: $screen-md) {
-    top: calc(50% + 10rem);
-    left: calc(50% - 7rem);
-    max-width: 240px;
+    top: calc(50% + 8rem);
+    left: calc(50% - 8rem);
+    max-width: 280px;
   }
   @media only screen and (max-width: $screen-sm) {
-    top: calc(50% + 9rem);
-    left: calc(50% - 10rem);
+    top: calc(50% + 7rem);
+    left: calc(50% - 7rem);
     max-width: 220px;
   }
   @media only screen and (max-width: $screen-xs) {
-    top: calc(50% + 7rem);
-    left: calc(50% - 8rem);
-    max-width: 230px;
+    top: calc(50% + 6rem);
+    left: calc(50% - 7rem);
+    max-width: 200px;
   }
 }
 
@@ -411,16 +434,21 @@ margin-bottom: 0;
   top: calc(50% - .125rem);
   left: calc(50% - 24rem);
   width: 160px;
+  @media only screen and (max-width: 1080px) {
+    top: calc(50% - .125rem);
+    left: calc(50% - 18rem);
+    width: 130px;
+  }
   @media only screen and (max-width: $screen-md) {
-  top: calc(50% - .875rem);
-  left: calc(50% - 15.5rem);
-  width: 150px;
+    top: calc(50% - .125rem);
+    left: calc(50% - 18rem);
+    width: 130px;
   }
   @media only screen and (max-width: $screen-sm) {
-  display: none;
+    display: none;
   }
   @media only screen and (max-width: $screen-xs) {
-  display: none;
+    display: none;
   }
 }
 
@@ -428,15 +456,18 @@ margin-bottom: 0;
   top: calc(50% - 8rem);
   left: calc(50% + 7rem);
   max-width: 255px;
+  @media only screen and (max-width: 1080px) {
+    top: calc(50% - 8rem);
+    left: calc(50% + 5rem);
+    max-width: 215px;
+  }
   @media only screen and (max-width: $screen-md) {
-    top: calc(50% - 5rem);
-    left: calc(50% + 1rem);
-    max-width: 240px;
+    top: calc(50% - 8rem);
+    left: calc(50% + 5rem);
+    max-width: 215px;
   }
   @media only screen and (max-width: $screen-sm) {
-    top: calc(50% - 2rem);
-    left: calc(50% - 10rem);
-    max-width: 180px;
+    display: none;
   }
   @media only screen and (max-width: $screen-xs) {
     display: none;
@@ -735,9 +766,11 @@ ul.schedule li {
 }
 
 #footer-nav {
-  font-size: .825rem;
-  font-family: $font-family-sans-serif;
+  font-size: .9rem;
+  font-family: $font-family-sans-serif !important;
   letter-spacing: .025rem;
+  font-weight: normal;
+  line-height: 1.75;
 }
 
 #mc_embed_signup {
@@ -746,7 +779,9 @@ ul.schedule li {
       input#mce-EMAIL {
         border: solid 2px $navy;
         height: 76.5px;
-        min-width: 325px;
+        min-width: 290px;
+        max-width: 325px;
+        width: 100%;
         margin: 0 .5rem 0 0;
         padding: 1rem;
         line-height: 3.5;

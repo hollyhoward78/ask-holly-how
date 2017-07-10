@@ -37,6 +37,24 @@ nav.navbar {
     }
 }
 
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav li a.active {
+    border-bottom: 2px solid transparent;
+    &.visited {
+      border-bottom: 2px solid transparent;
+    }
+    &.active {
+      border-bottom: 2px solid transparent;
+    }
+    &.focus {
+      border-bottom: 2px solid transparent;
+    }
+    &:hover {
+      border-bottom: 2px solid transparent;
+    }
+  }
+}
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: $navy;
 }
