@@ -105,10 +105,15 @@ strong {
 
 #ask-how-circle {
   background-image: url(/images/ahh-askmore-button.png);
+  background-size: cover;
   display: inline-block;
   width: 100px;
   height: 100px;
-  background-color: #000;
+  margin-right: 15px;
+  &:hover {
+    background-image: url(/images/ask_how.gif);
+    border-bottom: none;
+  }
 }
 
 .inline-text {
