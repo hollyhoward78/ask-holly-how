@@ -103,7 +103,17 @@ strong {
   }
 }
 
+#ask-how-circle {
+  background-image: url(/images/ahh-askmore-button.png);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+}
 
+.inline-text {
+  display: block;
+}
 
 .lead {
   font-size: $font-size-large;
