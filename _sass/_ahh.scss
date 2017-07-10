@@ -102,6 +102,10 @@ strong {
   font-size: $font-size-large;
 }
 
+.service-list {
+  font-size: $font-size-large;
+}
+
 .inline-link {
   font-size: $font-size-large;
   line-height: 4.5;
@@ -651,6 +655,12 @@ img.alignright {
   height: 77px;
   margin-top: -77px;
   visibility: hidden;
+  @media only screen and (max-width: $screen-sm) {
+    display: block;
+    height: 2px;
+    margin-top: -2px;
+    visibility: hidden;
+  }
 }
 
 .coming-soon {
@@ -660,12 +670,16 @@ img.alignright {
   display: inline-block;
   font-size: $font-size-h5;
   @media only screen and (max-width: $screen-sm) {
-    margin-top: 90px;
+    margin-top: 30px;
   }
 }
 
 .book-overview-img {
   width: 210px;
+}
+
+.two-color-row {
+  background: linear-gradient(to right,  $pink 0%,$pink 50%,$tan-pink 50%,$tan-pink 100%);
 }
 
 .flex-full-height {
@@ -696,7 +710,6 @@ img.alignright {
       // padding: 2em 1em;
     }
   }
-
 }
 
 .block {
@@ -778,17 +791,21 @@ ul.schedule li {
     .mc-field-group {
       input#mce-EMAIL {
         border: solid 2px $navy;
-        height: 76.5px;
+        height: auto;
         min-width: 290px;
         max-width: 325px;
         width: 100%;
         margin: 0 .5rem 0 0;
-        padding: 1rem;
-        line-height: 3.5;
+        padding: .875rem 1.25rem .75rem 1.25rem;
+        line-height: 1.5;
         display: inline-block;
         float: left;
         font-size: 1.25rem;
         background-color: transparent;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
         &::placeholder {
           color: $navy;
         }
@@ -809,7 +826,7 @@ ul.schedule li {
         font-weight: bold;
         letter-spacing: .2rem;
         font-size: .75rem;
-        padding: .75rem 1rem .625rem 1.125rem;
+        padding: 0.65rem 1.125rem .6rem 1.125rem;
         line-height: 1;
         text-align: center;
         @media only screen and (max-width: 768px) {

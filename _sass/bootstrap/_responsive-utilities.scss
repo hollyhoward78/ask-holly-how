@@ -105,7 +105,7 @@
   }
 }
 
-@media (min-width: $screen-lg-min) {
+@media (min-width: $screen-lg) {
   @include responsive-visibility('.visible-lg');
 }
 .visible-lg-block {
