@@ -99,6 +99,7 @@ defaults:
 
 include:
 - _assets
+- _redirects
 # - _stylesheets
 # - _javascript
 sass:
