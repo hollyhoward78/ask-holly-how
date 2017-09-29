@@ -98,10 +98,10 @@ layout: base
           <div class="col-xs-12 col-md-4">
             <ul class="graduates col-1">
               {% for graduate in site.data.graduates.grad_list_col1 %}
-                  {% if graduate.graduate_link %}
-                  <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
+                  {% if graduate.graduate_link == "" %}
+                    <li>{{ graduate.graduate_name }}</li>
                   {% else %}
-                  <li>{{ graduate.graduate_name }}</li>
+                    <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
                   {% endif %}
               {% endfor %}
             </ul>
@@ -109,10 +109,10 @@ layout: base
           <div class="col-xs-12 col-md-4">
             <ul class="graduates col-2">
               {% for graduate in site.data.graduates.grad_list_col2 %}
-                  {% if graduate.graduate_link %}
-                  <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
+                  {% if graduate.graduate_link == "" %}
+                    <li>{{ graduate.graduate_name }}</li>
                   {% else %}
-                  <li>{{ graduate.graduate_name }}</li>
+                    <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
                   {% endif %}
               {% endfor %}
             </ul>
@@ -120,10 +120,10 @@ layout: base
           <div class="col-xs-12 col-md-4">
             <ul class="graduates col-3">
               {% for graduate in site.data.graduates.grad_list_col3 %}
-                  {% if graduate.graduate_link %}
-                  <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
+                  {% if graduate.graduate_link == "" %}
+                    <li>{{ graduate.graduate_name }}</li>
                   {% else %}
-                  <li>{{ graduate.graduate_name }}</li>
+                    <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
                   {% endif %}
               {% endfor %}
             </ul>

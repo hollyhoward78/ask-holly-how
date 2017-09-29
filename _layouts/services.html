@@ -157,10 +157,10 @@ layout: base
         <div class="col-xs-12 col-md-4">
           <ul class="clients col-1">
             {% for client in site.data.clients.client_list_col1 %}
-                {% if client.client_link %}
-                <li><a href="{{ client.client_link }}">{{ client.client_name }}</a></li>
+                {% if client.client_link == "" %}
+                  <li>{{ client.client_name }}</li>
                 {% else %}
-                <li>{{ client.client_name }}</li>
+                  <li><a href="{{ client.client_link }}">{{ client.client_name }}</a></li>
                 {% endif %}
             {% endfor %}
           </ul>
@@ -168,21 +168,21 @@ layout: base
         <div class="col-xs-12 col-md-4">
           <ul class="clients col-2">
             {% for client in site.data.clients.client_list_col2 %}
-                {% if client.client_link %}
-                <li><a href="{{ client.client_link }}">{{ client.client_name }}</a></li>
+                {% if client.client_link == "" %}
+                  <li>{{ client.client_name }}</li>
                 {% else %}
-                <li>{{ client.client_name }}</li>
+                  <li><a href="{{ client.client_link }}">{{ client.client_name }}</a></li>
                 {% endif %}
             {% endfor %}
           </ul>
         </div>
         <div class="col-xs-12 col-md-4">
           <ul class="clients col-2">
-            {% for client in site.data.clients.client_list_col3 %}
-                {% if client.client_link %}
-                <li><a href="{{ client.client_link }}">{{ client.client_name }}</a></li>
+            {% for client in site.data.clients.client_list_col2 %}
+                {% if client.client_link == "" %}
+                  <li>{{ client.client_name }}</li>
                 {% else %}
-                <li>{{ client.client_name }}</li>
+                  <li><a href="{{ client.client_link }}">{{ client.client_name }}</a></li>
                 {% endif %}
             {% endfor %}
           </ul>
