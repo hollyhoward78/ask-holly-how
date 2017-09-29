@@ -12,7 +12,7 @@ introduction: >-
   pursuits has allowed her to shape her approach and philosophy to helping
   entrepreneurs grow their business without sacrificing their souls.
 about-image: /images/Holly_Portrait.jpg
-about-image-caption: 'Holly Howard, Principal'
+about-image-caption: Holly Howard &mdash; Principal
 about-email: hhoward@askhollyhow.com
 order: 1
 testimonials:
@@ -243,4 +243,5 @@ testimonials:
 title: About
 ---
 About
+
 
