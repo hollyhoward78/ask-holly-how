@@ -97,79 +97,35 @@ layout: base
         <div class="row">
           <div class="col-xs-12 col-md-4">
             <ul class="graduates col-1">
-              <!-- {% for graduate in site.data.graduates.grad_list_col1 %}
+              {% for graduate in site.data.graduates.grad_list_col1 %}
+                  {% if graduate.graduate_link %}
                   <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
-              {% endfor %} -->
-              Nausette Press<br/>
-              Brooklyn Jr.<br/>
-              Stefania Giarbado Handmade<br/>
-              DO ARCH NYC<br/>
-              Girl in the Little Red Kitchen<br/>
-              Home/Made<br/>
-              Fort Defiance<br/>
-              Dry Dock<br/>
-              Fulla Shirts<br/>
-              Sunny’s Bar<br/>
-              Red Hook Winery<br/>
-              Kevin’s &amp; Little Eva’s<br/>
-              Rocky Sullivans<br/>
-              The Good Fork<br/>
-              Haywood Studios<br/>
-              Red Hook Star Revue<br/>
-              Realty Collective<br/>
-              Saipua<br/>
-              ShaRed Brooklyn<br/>
+                  {% else %}
+                  <li>{{ graduate.graduate_name }}</li>
+                  {% endif %}
+              {% endfor %}
             </ul>
           </div>
           <div class="col-xs-12 col-md-4">
             <ul class="graduates col-2">
-              <!-- {% for graduate in site.data.graduates.grad_list_col2 %}
+              {% for graduate in site.data.graduates.grad_list_col2 %}
+                  {% if graduate.graduate_link %}
                   <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
-              {% endfor %} -->
-              Camp Celo<br/>
-              Jack from Brooklyn<br/>
-              Grindhaus<br/>
-              One Girl Cookies<br/>
-              Rebecca Atwood Designs<br/>
-              Knot &amp; Bow<br/>
-              by boe<br/>
-              Blue Marble Ice Cream<br/>
-              Colson’s Patisserie <br/>
-              Rose Red &amp; Lavender<br/>
-              Alexandra Ferguson<br/>
-              Early Bird Foods<br/>
-              Mr. Dog<br/>
-              Liddabit Sweets<br/>
-              The Wrap Life<br/>
-              Calico Wallpaper<br/>
-              Rogue Built<br/>
-              Maria Castelli Handbags<br/>
-              Hazel Village<br/>
+                  {% else %}
+                  <li>{{ graduate.graduate_name }}</li>
+                  {% endif %}
+              {% endfor %}
             </ul>
           </div>
           <div class="col-xs-12 col-md-4">
             <ul class="graduates col-3">
-              <!-- {% for graduate in site.data.graduates.grad_list_col3 %}
+              {% for graduate in site.data.graduates.grad_list_col3 %}
+                  {% if graduate.graduate_link %}
                   <li><a href="{{ graduate.graduate_link }}">{{ graduate.graduate_name }}</a></li>
-              {% endfor %} -->
-                Granola Lab<br/>
-                Home Studios<br/>
-                Fort Standard<br/>
-                Mr. Boddington’s<br/>
-                Jacob Perkins Furniture<br/>
-                Uptown Headwear<br/>
-                Salty Road<br/>
-                Pistache Catering<br/>
-                Fredericks and Mae<br/>
-                Token Furniture<br/>
-                Chen Chen &amp; Kai Williams <br/>
-                Kin &amp; Co.<br/>
-                Brooklyn Owl<br/>
-                City Saucery<br/>
-                OW Brooklyn<br/>
-                Saskia de Vries Designs<br/>
-                Pat Kim Studio<br/>
-                Kate Loudoun-Shand Designs<br/>
+                  {% else %}
+                  <li>{{ graduate.graduate_name }}</li>
+                  {% endif %}
+              {% endfor %}
             </ul>
           </div>
         </div>

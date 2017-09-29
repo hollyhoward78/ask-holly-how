@@ -156,53 +156,35 @@ layout: base
       <div class="row">
         <div class="col-xs-12 col-md-4">
           <ul class="clients col-1">
-            <li>Pies ’N’ Thighs</li>
-            <li>Red Hook Lobster Pound</li>
-            <li>Saltie</li>
-            <li>Hello Super Studios</li>
-            <li>The Meat Hook</li>
-            <li>Sans Bakery</li>
-            <li>Maison May</li>
-            <li>Lotta Jansdotter</li>
-            <li>Phoenicia Diner</li>
-            <li>Greenpointers</li>
-            <li>DO ARCH NYC</li>
-            <li>Greenery NYC</li>
-            <li>Naturally Delicious Catering</li>
+            {% for client in site.data.clients.client_list_col1 %}
+                {% if client.client_link %}
+                <li><a href="{{ client.client_link }}">{{ client.client_name }}</a></li>
+                {% else %}
+                <li>{{ client.client_name }}</li>
+                {% endif %}
+            {% endfor %}
           </ul>
         </div>
         <div class="col-xs-12 col-md-4">
           <ul class="clients col-2">
-            <li>Fabler Studios</li>
-            <li>Fort Defiance</li>
-            <li>Peartree Flowers</li>
-            <li>Realty Collective</li>
-            <li>Saipua</li>
-            <li>Stories BK</li>
-            <li>Foxfodder Farm</li>
-            <li>A Child Grows in Brooklyn</li>
-            <li>Stratton Films</li>
-            <li>Rebecca Atwood Designs</li>
-            <li>Sunny’s Bar</li>
-            <li>Peter Kruty Editions</li>
-            <li>Lost &amp; Found Films</li>
+            {% for client in site.data.clients.client_list_col2 %}
+                {% if client.client_link %}
+                <li><a href="{{ client.client_link }}">{{ client.client_name }}</a></li>
+                {% else %}
+                <li>{{ client.client_name }}</li>
+                {% endif %}
+            {% endfor %}
           </ul>
         </div>
         <div class="col-xs-12 col-md-4">
           <ul class="clients col-2">
-              <li>Calico Wallpaper</li>
-              <li>Early Bird Foods</li>
-              <li>Lion in the Sun</li>
-              <li>Flowerkraut</li>
-              <li>American Heirloom</li>
-              <li>In.Sek Design</li>
-              <li>Melt Massage</li>
-              <li>by boe</li>
-              <li>Home ReVision </li>
-              <li>Home Studios</li>
-              <li>Upstate Diary</li>
-              <li>Nuchas</li>
-              <li>Greecologies</li>
+            {% for client in site.data.clients.client_list_col3 %}
+                {% if client.client_link %}
+                <li><a href="{{ client.client_link }}">{{ client.client_name }}</a></li>
+                {% else %}
+                <li>{{ client.client_name }}</li>
+                {% endif %}
+            {% endfor %}
           </ul>
         </div>
         <div class="col-xs-12 col-md-5">
