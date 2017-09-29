@@ -31,6 +31,16 @@
       <title>{{site.title}} {{site.title_separator}} {{ page.title }}</title>
     {% endif %}
 
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107280634-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107280634-1');
+    </script>
+
     <!-- Additional CSS -->
     <link rel="stylesheet" href="/style.css">
 
