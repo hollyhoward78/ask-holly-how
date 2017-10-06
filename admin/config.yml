@@ -93,74 +93,8 @@ collections:
             name: "testimonials"
             widget: "list"
             fields:
-              - label: "Row One"
-                name: "row_one"
-                widget: "list"
-                fields:
-                  - label: "Left"
-                    name: "left"
-                    widget: "list"
-                    fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
-                      - {label: "Business Location", name: "business-location", widget: "string"}
-                      - {label: "Business Name", name: "business-name", widget: "string"}
-                      - {label: "Name", name: "name", widget: "string"}
-                      - {label: "Text", name: "text", widget: "text"}
-                  - label: "Right"
-                    name: "right"
-                    widget: "list"
-                    fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
-                      - {label: "Business Location", name: "business-location", widget: "string"}
-                      - {label: "Business Name", name: "business-name", widget: "string"}
-                      - {label: "Name", name: "name", widget: "string"}
-                      - {label: "Text", name: "text", widget: "text"}
-              - label: "Row Two"
-                name: "row_two"
-                widget: "list"
-                fields:
-                  - label: "Left"
-                    name: "left"
-                    widget: "list"
-                    fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
-                      - {label: "Business Location", name: "business-location", widget: "string"}
-                      - {label: "Business Name", name: "business-name", widget: "string"}
-                      - {label: "Name", name: "name", widget: "string"}
-                      - {label: "Text", name: "text", widget: "text"}
-                  - label: "Right"
-                    name: "right"
-                    widget: "list"
-                    fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
-                      - {label: "Business Location", name: "business-location", widget: "string"}
-                      - {label: "Business Name", name: "business-name", widget: "string"}
-                      - {label: "Name", name: "name", widget: "string"}
-                      - {label: "Text", name: "text", widget: "text"}
-              - label: "Row Three"
-                name: "row_three"
-                widget: "list"
-                fields:
-                  - label: "Left"
-                    name: "left"
-                    widget: "list"
-                    fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
-                      - {label: "Business Location", name: "business-location", widget: "string"}
-                      - {label: "Business Name", name: "business-name", widget: "string"}
-                      - {label: "Name", name: "name", widget: "string"}
-                      - {label: "Text", name: "text", widget: "text"}
-                  - label: "Right"
-                    name: "right"
-                    widget: "list"
-                    fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
-                      - {label: "Business Location", name: "business-location", widget: "string"}
-                      - {label: "Business Name", name: "business-name", widget: "string"}
-                      - {label: "Name", name: "name", widget: "string"}
-                      - {label: "Text", name: "text", widget: "text"}
-              - label: "Row Four"
-                name: "row_four"
+              - label: "Row"
+                name: "row"
                 widget: "object"
                 fields:
                   - label: "Left"
