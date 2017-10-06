@@ -93,19 +93,19 @@ collections:
             name: "testimonials"
             widget: "list"
             fields:
-              - {label: "Row One", name: "row_one", widget: "list"}
-                - {label: "Left", name: "left", widget: "list"}
-                  - {label: "Business Link", name: "business-link", widget: "string"}
-                  - {label: "Business Location", name: "business-location", widget: "string"}
-                  - {label: "Business Name", name: "business-name", widget: "string"}
-                  - {label: "Name", name: "name", widget: "string"}
-                  - {label: "Text", name: "text", widget: "text"}
-                - {label: "Right", name: "right", widget: "list"}
-                  - {label: "Business Link", name: "business-link", widget: "string"}
-                  - {label: "Business Location", name: "business-location", widget: "string"}
-                  - {label: "Business Name", name: "business-name", widget: "string"}
-                  - {label: "Name", name: "name", widget: "string"}
-                  - {label: "Text", name: "text", widget: "text"}
+              - label: "Row One"
+                name: "row_one"
+                widget: "list"
+                fields:
+                  - label: "Left"
+                    name: "left"
+                    widget: "list"
+                    fields:
+                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Location", name: "business-location", widget: "string"}
+                      - {label: "Business Name", name: "business-name", widget: "string"}
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Text", name: "text", widget: "text"}
 
   - name: "site-lists" # Used in routes, e.g. /admin/collections/blog
     label: "Clients and Graduates" # Used in the UI
