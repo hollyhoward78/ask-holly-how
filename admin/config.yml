@@ -159,28 +159,28 @@ collections:
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
                       - {label: "Text", name: "text", widget: "text"}
-              label: "Row IV"
-              name: "row_four"
-              widget: "object"
-              fields:
-                label: "Left Testimonial"
-                name: "left"
+              - label: "Row IV"
+                name: "row_four"
                 widget: "object"
                 fields:
-                  - {label: "Business Link", name: "business-link", widget: "string"}
-                    {label: "Business Location", name: "business-location", widget: "string"}
-                    {label: "Business Name", name: "business-name", widget: "string"}
-                    {label: "Name", name: "name", widget: "string"}
-                    {label: "Text", name: "text", widget: "text"}
-                label: "Right Testimonial"
-                name: "right"
-                widget: "object"
-                fields:
-                  - {label: "Business Link", name: "business-link", widget: "string"}
-                    {label: "Business Location", name: "business-location", widget: "string"}
-                    {label: "Business Name", name: "business-name", widget: "string"}
-                    {label: "Name", name: "name", widget: "string"}
-                    {label: "Text", name: "text", widget: "text"}
+                  label: "Left Testimonial"
+                  name: "left"
+                  widget: "object"
+                  fields:
+                    - {label: "Business Link", name: "business-link", widget: "string"}
+                      {label: "Business Location", name: "business-location", widget: "string"}
+                      {label: "Business Name", name: "business-name", widget: "string"}
+                      {label: "Name", name: "name", widget: "string"}
+                      {label: "Text", name: "text", widget: "text"}
+                  label: "Right Testimonial"
+                  name: "right"
+                  widget: "object"
+                  fields:
+                    - {label: "Business Link", name: "business-link", widget: "string"}
+                      {label: "Business Location", name: "business-location", widget: "string"}
+                      {label: "Business Name", name: "business-name", widget: "string"}
+                      {label: "Name", name: "name", widget: "string"}
+                      {label: "Text", name: "text", widget: "text"}
               - label: "Row V"
                 name: "row_five"
                 widget: "object"
