@@ -106,7 +106,81 @@ collections:
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
                       - {label: "Text", name: "text", widget: "text"}
-
+                  - label: "Right"
+                    name: "right"
+                    widget: "list"
+                    fields:
+                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Location", name: "business-location", widget: "string"}
+                      - {label: "Business Name", name: "business-name", widget: "string"}
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Text", name: "text", widget: "text"}
+              - label: "Row Two"
+                name: "row_two"
+                widget: "list"
+                fields:
+                  - label: "Left"
+                    name: "left"
+                    widget: "list"
+                    fields:
+                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Location", name: "business-location", widget: "string"}
+                      - {label: "Business Name", name: "business-name", widget: "string"}
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Text", name: "text", widget: "text"}
+                  - label: "Right"
+                    name: "right"
+                    widget: "list"
+                    fields:
+                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Location", name: "business-location", widget: "string"}
+                      - {label: "Business Name", name: "business-name", widget: "string"}
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Text", name: "text", widget: "text"}
+              - label: "Row Three"
+                name: "row_three"
+                widget: "list"
+                fields:
+                  - label: "Left"
+                    name: "left"
+                    widget: "list"
+                    fields:
+                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Location", name: "business-location", widget: "string"}
+                      - {label: "Business Name", name: "business-name", widget: "string"}
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Text", name: "text", widget: "text"}
+                  - label: "Right"
+                    name: "right"
+                    widget: "list"
+                    fields:
+                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Location", name: "business-location", widget: "string"}
+                      - {label: "Business Name", name: "business-name", widget: "string"}
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Text", name: "text", widget: "text"}
+              - label: "Row Four"
+                name: "row_four"
+                widget: "list"
+                fields:
+                  - label: "Left"
+                    name: "left"
+                    widget: "list"
+                    fields:
+                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Location", name: "business-location", widget: "string"}
+                      - {label: "Business Name", name: "business-name", widget: "string"}
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Text", name: "text", widget: "text"}
+                  - label: "Right"
+                    name: "right"
+                    widget: "list"
+                    fields:
+                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Location", name: "business-location", widget: "string"}
+                      - {label: "Business Name", name: "business-name", widget: "string"}
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Text", name: "text", widget: "text"}
   - name: "site-lists" # Used in routes, e.g. /admin/collections/blog
     label: "Clients and Graduates" # Used in the UI
     files:
