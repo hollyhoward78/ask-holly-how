@@ -191,12 +191,12 @@ testimonials:
       business-name: Sunnys Bar
       name: Tone Johansen
       text: >-
-        The name of the course is &lquo;From Artisan to Entrepreneur.&rquo; I am
-        an artist and musician that stumbled into the bar business. It is the
-        love of what I do that makes me an artisan. Today, thanks to this class,
-        I take better care of the systems that support my bar. Thank you, Holly,
-        for making me understand that being poor doesn’t make me more authentic.
-        It just makes me poor. And although money still is not my primary
+        The name of the course is From Artisan to Entrepreneur. I am an artist
+        and musician that stumbled into the bar business. It is the love of what
+        I do that makes me an artisan. Today, thanks to this class, I take
+        better care of the systems that support my bar. Thank you, Holly, for
+        making me understand that being poor doesn’t make me more authentic. It
+        just makes me poor. And although money still is not my primary
         motivation, you helped me recognize that it is a necessary tool to keep
         my business healthy. I am proud to think financially and to not just
         pretend the scary “business of business” doesn’t exist and hope for the
@@ -253,4 +253,5 @@ testimonials:
 title: About
 ---
 About
+
 
