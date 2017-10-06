@@ -16,6 +16,19 @@ about-image-caption: Holly Howard &mdash; Principal
 about-email: hhoward@askhollyhow.com
 order: 1
 testimonials:
+  row_eight:
+    left:
+      business-link: 'http://test.com'
+      business-location: 'Brooklyn, NY'
+      business-name: Test Biz
+      name: John Snow
+      text: This is the description for the test
+    right:
+      business-link: ''
+      business-location: 'Brooklyn, NY'
+      business-name: 2nd test
+      name: Brian Greg
+      text: 2nd description
   row_five:
     left:
       - business-link: null
@@ -243,3 +256,4 @@ testimonials:
 title: About
 ---
 About
+
