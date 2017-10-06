@@ -52,6 +52,19 @@ testimonials:
           Working with Holly over the course of two years doubled our revenue
           and made me a much more effective manager. I can not recommend her
           services highly enough!
+    row:
+      left:
+        business-link: 'null'
+        business-location: Brooklyn
+        business-name: Business Name
+        name: Sarah
+        text: This is a description
+      right:
+        business-link: 'null'
+        business-location: Brooklyn
+        business-name: Business Name
+        name: John
+        text: Description here
   row_four:
     left:
       - business-link: null
@@ -174,74 +187,9 @@ testimonials:
           managerial roles, and expectations. Everyone’s job easier just knowing
           what is expected of them, and how they can succeed. Now we’re drinking
           to relax, rather than out of stress.
-  row_three:
-    left:
-      - business-link: 'http://www.sunnysredhook.com/'
-        business-location: 'Brooklyn, NY'
-        business-name: Sunnys Bar
-        name: Tone Johansen
-        text: >-
-          The name of the course is From Artisan to Entrepreneur. I am an artist
-          and musician that stumbled into the bar business. It is the love of
-          what I do that makes me an artisan. Today, thanks to this class, I
-          take better care of the systems that support my bar. Thank you, Holly,
-          for making me understand that being poor doesn’t make me more
-          authentic. It just makes me poor. And although money still is not my
-          primary motivation, you helped me recognize that it is a necessary
-          tool to keep my business healthy. I am proud to think financially and
-          to not just pretend the scary “business of business” doesn’t exist and
-          hope for the best. On the days when sisyphean tasks pile up, you start
-          to wonder where your freedom went. Now, because of this class, I have
-          lots of obvious goals that pull me out of that day-to-day and keep me
-          excited about the future.
-    right:
-      - business-link: null
-        business-location: 'Brooklyn, NY'
-        business-name: David Obuchowski Architects
-        name: David Obochowski
-        text: >-
-          I feel as though the From Artisan to Entrepreneur program is the thing
-          that will make my business viable as a lifelong pursuit, allowing me
-          to support a family with the creative work I’ve always loved. Before I
-          took the class, I was content with the unpredictable and random growth
-          of my practice, and very much focused only on the production of the
-          immediate work at hand. The class helped me get a handle on the total
-          picture of running a sustainable business and defining what success
-          could and would actually look like. Holly’s clear, thoughtful and
-          sensitive guidance has given me the confidence to define goals for my
-          practice and to actually believe that they’re achievable. It’s
-          incredible satisfying to have the business in the background of my
-          design work feel as carefully considered as the work itself.
-  row_two:
-    left:
-      - business-link: 'http://storiesbk.com/'
-        business-location: 'Brooklyn, NY'
-        business-name: Stories Bookshop + Storytelling Lab
-        name: Maggie Pouncey &amp; Matt Miller
-        text: >-
-          We met with Holly Howard when our business was just a glimmer of an
-          idea. She was our trusted guide through the entire process of
-          developing our business plan, through to the early days of hiring and
-          opening our bookshop. Her warmth, wisdom, expertise, vast connections
-          in the small business community, as well as her faith in our mission,
-          and encouragement, was invaluable to us as we shaped our glimmer into
-          something concrete. We quite simply could not have opened Stories in
-          the time frame in which we did it, without Holly's help.
-    right:
-      - business-link: 'https://greenpointers.com/'
-        business-location: 'Brooklyn, NY'
-        business-name: Greenpointers
-        name: Jen Pywell
-        text: >-
-          Big thanks to Ask Holly How for helping me create a selling plan for
-          my former business Greenpointers.  All small business owners should
-          think about a business plan and GET HELP! Working with her gave me
-          confidence and showed me the true value of all my hard work. It also
-          increased the profit of my sale to almost double of an offer I
-          received before working with her! When I come up with another business
-          idea she is the first person I am going to call!
 title: About
 ---
 About
+
 
 
