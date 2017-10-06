@@ -95,8 +95,8 @@ testimonials:
       business-location: 'Brooklyn, NY'
       business-name: Realty Collective
       name: Victoria Hagman
-      text: >-
-        The most valuable part of the "From Artisan to Entrepreneur" program was
+      text: |
+        The most valuable part of the From Artisan to Entrepreneur program was
         learning right along side other business owners within my community.
         It’s a rare opportunity to be able to have such frank conversations and
         get such beneficial feedback from my peers, all while fortifying the
@@ -253,4 +253,3 @@ testimonials:
 title: About
 ---
 About
-
