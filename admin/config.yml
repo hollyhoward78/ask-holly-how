@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: partnerandpartners/holly-how # Path to your Github repository
+  repo: hollyhoward78/holly-how # Path to your Github repository
   branch: master # Branch to update
   publish_mode: editorial_workflow
 
