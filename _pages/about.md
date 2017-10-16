@@ -232,7 +232,7 @@ testimonials:
         something concrete. We quite simply could not have opened Stories in the
         time frame in which we did it, without Holly's help.
     right:
-      business-link: greenpointers.com/
+      business-link: 'https://greenpointers.com/'
       business-location: 'Brooklyn, NY'
       business-name: Greenpointers
       name: Jen Pywell
