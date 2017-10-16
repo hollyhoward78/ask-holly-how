@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
-  repo: hollyhoward78/holly-how # Path to your Github repository
   branch: master # Branch to update
   publish_mode: editorial_workflow
+  #repo: hollyhoward78/holly-how # Path to your Github repository
 
 media_folder: "images/"
 
