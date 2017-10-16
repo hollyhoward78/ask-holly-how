@@ -14,7 +14,6 @@ introduction: >-
 about-image: /images/Holly_Portrait.jpg
 about-image-caption: Holly Howard &mdash; Principal
 about-email: hhoward@askhollyhow.com
-order: 1
 testimonials:
   row_eight:
     left:
@@ -31,7 +30,6 @@ testimonials:
       text: ''
   row_five:
     left:
-      business-link: null
       business-location: 'Brooklyn, NY'
       business-name: Maison May
       name: Catherine May
@@ -46,7 +44,6 @@ testimonials:
         empowering but no intrusive in what must stay the leader's process to
         achieve his goals. And she does it always with a smile...
     right:
-      business-link: null
       business-location: 'Brooklyn, NY'
       business-name: Greenery NYC
       name: Rebecca Bullene
@@ -66,7 +63,6 @@ testimonials:
         effective manager. I can not recommend her services highly enough!
   row_four:
     left:
-      business-link: null
       business-location: 'Brooklyn, NY'
       business-name: Knot and Bow
       name: Erin
@@ -77,7 +73,6 @@ testimonials:
         that helped me make positive changes within my company. I have a fresh
         set of eyes and a renewed sense of energy and excitement for the future.
     right:
-      business-link: null
       business-location: 'Brooklyn, NY'
       business-name: One Girl Cookies
       name: Dawn
@@ -205,7 +200,6 @@ testimonials:
         obvious goals that pull me out of that day-to-day and keep me excited
         about the future.
     right:
-      business-link: null
       business-location: 'Brooklyn, NY'
       business-name: David Obuchowski Architects
       name: David Obochowski
@@ -238,19 +232,18 @@ testimonials:
         something concrete. We quite simply could not have opened Stories in the
         time frame in which we did it, without Holly's help.
     right:
-      business-link: 'https://greenpointers.com/'
+      business-link: greenpointers.com/
       business-location: 'Brooklyn, NY'
       business-name: Greenpointers
       name: Jen Pywell
       text: >-
         Big thanks to Ask Holly How for helping me create a selling plan for my
-        former business Greenpointers.  All small business owners should think
+        former business Greenpointers. All small business owners should think
         about a business plan and GET HELP! Working with her gave me confidence
         and showed me the true value of all my hard work. It also increased the
         profit of my sale to almost double of an offer I received before working
         with her! When I come up with another business idea she is the first
         person I am going to call!
-title: About
 ---
 About
 
