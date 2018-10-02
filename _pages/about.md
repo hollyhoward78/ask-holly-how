@@ -101,7 +101,7 @@ testimonials:
         on problems I wasn’t addressing and needed to overcome. The supportive
         community within the class allowed me to feel confident and accountable
         in recognizing those problems and the program gave me the solutions to
-        solve them.
+        solve them
     right:
       business-link: 'http://saipua.com/'
       business-location: 'New York, NY'
