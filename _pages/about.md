@@ -5,7 +5,7 @@ lead-introduction: >-
   successful entrepreneurship resides at the intersection of self-evolution,
   business growth, and the creative pursuit.
 introduction: >-
-  Since launching Ask Holly How in 2012, Holly has worked with over 100
+  Since launching Ask Holly How in 2012, Holly has worked with over 200
   businesses through her private consulting and business growth program. She has
   a rich background as a professional ballet dancer, music therapist, medical
   researcher, bassoonist, and a VP of Operations and Finance. Each of these
