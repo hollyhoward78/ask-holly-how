@@ -16,9 +16,10 @@ introduction: >-
   Since launching Ask Holly How in 2012, Holly has worked with over 200
   businesses through her private consulting and business growth program. She has
   a rich background as a professional ballet dancer, music therapist, medical
-  researcher, bassoonist, and a VP of Operations and Finance. Each of these
-  pursuits has allowed her to shape her approach and philosophy to helping
-  entrepreneurs grow their business without sacrificing their souls.
+  researcher, bassoonist, VP of Operations and Finance, and Professor of
+  Business at Pratt Institute. Each of these pursuits has allowed her to shape
+  her approach and philosophy to helping entrepreneurs grow their business
+  without sacrificing their souls.
 about-image: /images/Holly_Portrait.jpg
 about-image-caption: Holly Howard &mdash; Principal
 about-email: hhoward@askhollyhow.com
