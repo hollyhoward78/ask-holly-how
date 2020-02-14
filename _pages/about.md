@@ -20,7 +20,7 @@ introduction: >-
   Business at Pratt Institute. Each of these pursuits has allowed her to shape
   her approach and philosophy to helping entrepreneurs grow their business
   without sacrificing their souls.
-about-image: /images/Holly_Portrait.jpg
+about-image: /images/200209_Holly_Portrait3220b.jpg
 about-image-caption: Holly Howard &mdash; Principal
 about-email: hhoward@askhollyhow.com
 testimonials:
