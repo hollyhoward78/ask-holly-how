@@ -13,7 +13,7 @@ introduction: >-
   and a clear path towards generating their legacy. 
 
 
-  Since launching Ask Holly How in 2012, Holly has worked with over 200
+  Since launching Ask Holly How in 2012, Holly has worked with over 500
   businesses through her private consulting and business growth program. She has
   a rich background as a professional ballet dancer, music therapist, medical
   researcher, bassoonist, VP of Operations and Finance, and Professor of
