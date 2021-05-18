@@ -281,6 +281,26 @@ collections:
           - {label: "Main Introduction", name: "introduction", widget: "text", required: false}
           - {label: "Body", name: "body", widget: "text"}
           - {label: "Custom Code", name: "embeddedscripts", widget: "code", required: false}
+      - name: "Disclaimer"
+        label: "Disclaimer Page"
+        file: "_pages/disclaimer.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Layout", name: "layout", widget: "hidden", default: "legal"}
+          - {label: "Title", name: "title", widget: "text"}
+          - {label: "Lead Introduction", name: "lead-introduction", widget: "text", required: false}
+          - {label: "Main Introduction", name: "introduction", widget: "text", required: false}
+          - {label: "Body", name: "body", widget: "text"}
+          - {label: "Custom Code", name: "embeddedscripts", widget: "code", required: false}
+      - name: "Terms"
+        label: "Terms Page"
+        file: "_pages/terms-of-service.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Layout", name: "layout", widget: "hidden", default: "legal"}
+          - {label: "Title", name: "title", widget: "text"}
+          - {label: "Lead Introduction", name: "lead-introduction", widget: "text", required: false}
+          - {label: "Main Introduction", name: "introduction", widget: "text", required: false}
+          - {label: "Body", name: "body", widget: "text"}
+          - {label: "Custom Code", name: "embeddedscripts", widget: "code", required: false}
   - name: "site-lists" # Used in routes, e.g. /admin/collections/blog
     label: "Clients and Graduates" # Used in the UI
     files:
