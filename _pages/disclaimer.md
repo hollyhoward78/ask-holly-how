@@ -13,4 +13,4 @@ embeddedscripts:
 
     <script src="https://app.termageddon.com/js/termageddon.js"></script>
 ---
-Privacy
+Disclaimer
