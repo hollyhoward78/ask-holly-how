@@ -1,6 +1,6 @@
 ---
 layout: legal
-title: Privacy Policy
+title: Disclaimer
 lead-introduction: ""
 introduction: ""
 embeddedscripts:

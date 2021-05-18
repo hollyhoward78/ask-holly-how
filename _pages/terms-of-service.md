@@ -1,6 +1,6 @@
 ---
 layout: legal
-title: Privacy Policy
+title: Terms of Service
 lead-introduction: ""
 introduction: ""
 embeddedscripts:

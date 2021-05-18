@@ -4,6 +4,8 @@ backend:
   publish_mode: editorial_workflow
   #repo: hollyhoward78/holly-how # Path to your Github repository
 
+local_backend: true
+
 media_folder: "images/"
 
 collections:
@@ -41,8 +43,8 @@ collections:
               - {label: "Section Image", name: "section_image", widget: "image", required: false}
               - {label: "Section Selection", name: "section_select", widget: "select", options: ["Left", "Right"]}
 
-  - name: "page" # Used in routes, e.g. /admin/collections/blog
-    label: "Page" # Used in the UI
+  - name: "pages" # Used in routes, e.g. /admin/collections/blog
+    label: "Pages" # Used in the UI
     files:
       - name: "Services"
         label: "Services page"
@@ -273,10 +275,12 @@ collections:
         label: "Privacy page"
         file: "_pages/privacy.md"
         fields: # The fields for each document, usually in front matter
-          - {label: "Body", name: "body", widget: "text"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "legal"}
           - {label: "Title", name: "title", widget: "text"}
-          - {label: "Lead Introduction", name: "lead-introduction", widget: "text"}
-          - {label: "Main Introduction", name: "introduction", widget: "text"}
+          - {label: "Lead Introduction", name: "lead-introduction", widget: "text", required: false}
+          - {label: "Main Introduction", name: "introduction", widget: "text", required: false}
+          - {label: "Body", name: "body", widget: "text"}
+          - {label: "Custom Code", name: "embeddedscripts", widget: "code", required: false}
   - name: "site-lists" # Used in routes, e.g. /admin/collections/blog
     label: "Clients and Graduates" # Used in the UI
     files:
