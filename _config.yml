@@ -3,7 +3,6 @@ domain: askhollyhow.com
 author: Ask Holly How, LLC
 email: info@askhollyhow.com
 
-
 # Site Settings
 locale                   : "en-US"
 # Keep original, do not replace
@@ -88,6 +87,7 @@ collections:
   pages:
     output: true
     permalink: /:title/
+
 
 defaults:
 -

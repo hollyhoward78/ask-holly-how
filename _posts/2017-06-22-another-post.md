@@ -1,8 +1,10 @@
 ---
 published: true
-title: Another Post
 layout: single
+title: Another Resource Post
 tags: something else
+date: 2021-05-18T20:13:42.705Z
+thumbnail: /images/home-eyeeee.png
 ---
 ## This is another post!
 
