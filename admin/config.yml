@@ -279,7 +279,7 @@ collections:
           - {label: "Title", name: "title", widget: "text"}
           - {label: "Lead Introduction", name: "lead-introduction", widget: "text", required: false}
           - {label: "Main Introduction", name: "introduction", widget: "text", required: false}
-          - {label: "Body", name: "body", widget: "text"}
+          - {label: "Body", name: "body", widget: "text",required: false}
       - name: "Privacy"
         label: "Privacy page"
         file: "_pages/privacy.md"
@@ -288,7 +288,7 @@ collections:
           - {label: "Title", name: "title", widget: "text"}
           - {label: "Lead Introduction", name: "lead-introduction", widget: "text", required: false}
           - {label: "Main Introduction", name: "introduction", widget: "text", required: false}
-          - {label: "Body", name: "body", widget: "text"}
+          - {label: "Body", name: "body", widget: "text", required: false}
           - {label: "Custom Code", name: "embeddedscripts", widget: "code", required: false}
       - name: "Disclaimer"
         label: "Disclaimer Page"
@@ -298,7 +298,7 @@ collections:
           - {label: "Title", name: "title", widget: "text"}
           - {label: "Lead Introduction", name: "lead-introduction", widget: "text", required: false}
           - {label: "Main Introduction", name: "introduction", widget: "text", required: false}
-          - {label: "Body", name: "body", widget: "text"}
+          - {label: "Body", name: "body", widget: "text", required: false}
           - {label: "Custom Code", name: "embeddedscripts", widget: "code", required: false}
       - name: "Terms"
         label: "Terms Page"
