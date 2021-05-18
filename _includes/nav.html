@@ -50,7 +50,7 @@
         <ul class="nav navbar-nav middle-nav">
           {% assign items = site.pages | sort: "order" %}
           {% for item in items %}
-            {% if item.title != "Home" and item.title != "The Book" %}
+            {% if item.title != "Home" and item.title != "The Book" and item.title != "Privacy Policy" %}
                 {% if page.url == item.url %}
                   <li><a href="{{ item.url }}" class="active">{{item.title}}</a></li>
                 {% else %}
