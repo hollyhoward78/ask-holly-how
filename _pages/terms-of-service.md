@@ -5,10 +5,8 @@ lead-introduction: ""
 introduction: ""
 embeddedscripts:
   code: >-
-    <div id="terms"  
+    <div id="policy" width="640" height="480" 
 
-    data-policy-key="UzJaYVpHSnNjbEpaYkVsVFJFRTlQUT09" data-extra="h-align=left&h-depth=3&no-title=true&table-style=accordion"></div>
-    
-    <script src="https://app.termageddon.com/js/termageddon.js"></script>
+    data-policy-key="UzJaYVpHSnNjbEpaYkVsVFJFRTlQUT09" data-extra="h-align=left&h-depth=3&no-title=true&table-style=accordion" > </div><script src="https://app.termageddon.com/js/termageddon.js"></script>
 ---
 Terms
