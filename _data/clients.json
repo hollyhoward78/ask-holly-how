@@ -40,9 +40,6 @@
       "client_name": "Bolé Road"
     },
     {
-      "client_name": "Palm Orleans"
-    },
-    {
       "client_name": "NYC ITAC"
     },
     {
@@ -55,14 +52,6 @@
   "client_list_col2": [
     {
       "client_name": "Fort Defiance",
-      "client_link": ""
-    },
-    {
-      "client_name": "Saipua",
-      "client_link": ""
-    },
-    {
-      "client_name": "Stories BK",
       "client_link": ""
     },
     {
@@ -99,6 +88,9 @@
     },
     {
       "client_name": "Egg Collective "
+    },
+    {
+      "client_name": "Nest x Madewell "
     }
   ],
   "client_list_col3": [
