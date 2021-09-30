@@ -161,49 +161,58 @@ testimonials:
       business-location: Brooklyn, NY
       business-name: Sunnys Bar
       name: Tone Johansen
-      text: The name of the course is From Artisan to Entrepreneur. I am an artist and
-        musician that stumbled into the bar business. It is the love of what I
-        do that makes me an artisan. Today, thanks to this class, I take better
-        care of the systems that support my bar. Thank you, Holly, for making me
-        understand that being poor doesn’t make me more authentic. It just makes
-        me poor. And although money still is not my primary motivation, you
-        helped me recognize that it is a necessary tool to keep my business
-        healthy. I am proud to think financially and to not just pretend the
-        scary “business of business” doesn’t exist and hope for the best. On the
-        days when sisyphean tasks pile up, you start to wonder where your
-        freedom went. Now, because of this class, I have lots of obvious goals
-        that pull me out of that day-to-day and keep me excited about the
-        future.
+      text: I am an artist and musician that stumbled into the bar business. It is the
+        love of what I do that makes me an artisan. Today, thanks to this class,
+        I take better care of the systems that support my bar. Thank you, Holly,
+        for making me understand that being poor doesn’t make me more authentic.
+        It just makes me poor. And although money still is not my primary
+        motivation, you helped me recognize that it is a necessary tool to keep
+        my business healthy. I am proud to think financially and to not just
+        pretend the scary “business of business” doesn’t exist and hope for the
+        best. On the days when sisyphean tasks pile up, you start to wonder
+        where your freedom went. Now, because of this class, I have lots of
+        obvious goals that pull me out of that day-to-day and keep me excited
+        about the future.
     right:
-      business-location: Brooklyn, NY
-      business-name: David Obuchowski Architects
-      name: David Obochowski
-      text: I feel as though the From Artisan to Entrepreneur program is the thing
-        that will make my business viable as a lifelong pursuit, allowing me to
-        support a family with the creative work I’ve always loved. Before I took
-        the class, I was content with the unpredictable and random growth of my
-        practice, and very much focused only on the production of the immediate
-        work at hand. The class helped me get a handle on the total picture of
-        running a sustainable business and defining what success could and would
-        actually look like. Holly’s clear, thoughtful and sensitive guidance has
-        given me the confidence to define goals for my practice and to actually
-        believe that they’re achievable. It’s incredible satisfying to have the
-        business in the background of my design work feel as carefully
-        considered as the work itself.
+      business-location: Kingston, NY
+      business-name: Keap Candles
+      name: "Stephen Tracy and Harry Doull "
+      text: When we first met Holly we were exhausted and struggling to grow our
+        company and growing afraid of what might happen next. Holly helped us
+        get to the bottom of and resolve the fears that were blocking us. With
+        her mentorship, we were able to refine our vision and values, and
+        restore our enthusiasm and confidence to move forward with inner clarity
+        and ambition. Over time Holly has helped us reflect on and improve
+        almost every aspect of our business and culture — from our pricing model
+        to our hiring practices. In the two years since we began working with
+        Holly, we’ve almost doubled our sales (despite a pandemic in the
+        middle), achieved profitability. More significantly, the health of our
+        company culture has transformed, benefiting our employees, our
+        customers, and ourselves. Holly achieves all this through asking the
+        right questions, as opposed to giving rote answers. Perhaps the most
+        brilliant thing about our work with Holly is a genuine sense that we
+        have grown as humans in the process. We are now better equipped to run
+        our business in future, and on a deeper level, to navigate the
+        complexity of our own personal lives.
   row_two:
     left:
-      business-link: http://storiesbk.com/
+      business-link: https://www.gageandtollner.com/
       business-location: Brooklyn, NY
-      business-name: Stories Bookshop + Storytelling Lab
-      name: Maggie Pouncey &amp; Matt Miller
-      text: We met with Holly Howard when our business was just a glimmer of an idea.
-        She was our trusted guide through the entire process of developing our
-        business plan, through to the early days of hiring and opening our
-        bookshop. Her warmth, wisdom, expertise, vast connections in the small
-        business community, as well as her faith in our mission, and
-        encouragement, was invaluable to us as we shaped our glimmer into
-        something concrete. We quite simply could not have opened Stories in the
-        time frame in which we did it, without Holly's help.
+      business-name: Fort Defiance / Gage & Tollner
+      name: St. John Frizell
+      text: I met Holly Howard in 2013, when Fort Defiance, my restaurant in Brooklyn,
+        was at a crossroads. We were still recovering from Hurricane Sandy,
+        burdened with debt, and I was exhausted. Holly showed me that I wasn't
+        alone — that there were lots of creatives like me trapped in businesses
+        they started that they didn't know how to run properly — and that there
+        was hope for all of us. Under Holly's tutelage, Fort Defiance became a
+        powerhouse, increasing revenue and profit year after year. She
+        introduced me to ways of thinking about business that were entirely new,
+        and converted me from a frustrated bartender into an efficient operator.
+        I opened the restaurant Gage & Tollner in 2021, and thanks to Holly's
+        advice on securing investment, creating culture, and sound business
+        planning, we raised $1.3M in private equity and close to $500K in
+        regulation crowdfunding, and the business is now a wild success.
     right:
       business-link: https://greenpointers.com/
       business-location: Brooklyn, NY
