@@ -70,35 +70,32 @@ testimonials:
         how to become a better leader and overall happier business owner.
   row_one:
     left:
-      business-link: http://realtycollective.com/
-      business-location: Brooklyn, NY
-      business-name: Realty Collective
-      name: Victoria Hagman
-      text: |
-        The most valuable part of the From Artisan to Entrepreneur program was
-        learning right along side other business owners within my community.
-        It’s a rare opportunity to be able to have such frank conversations and
-        get such beneficial feedback from my peers, all while fortifying the
-        relationships within my community that help my business grow. Taking the
-        From Artisan to Entrepreneur class pulled me out of the
-        hyper-adrenaline, day-to-day mode of running a business and shed light
-        on problems I wasn’t addressing and needed to overcome. The supportive
-        community within the class allowed me to feel confident and accountable
-        in recognizing those problems and the program gave me the solutions to
-        solve them.
+      business-link: https://www.dameproducts.com/
+      business-location: NY, NY
+      business-name: "Dame Products "
+      name: Alexandra Fine
+      text: >
+        Holly has touched so many aspects of Dame. She has guided Dame through
+        Business planning, cultural changes, infrastructure development,
+        leadership development... and so much more.  Since working together my
+        business has tripled in size and raised $4M. But what I have found most
+        valuable is my improved values alignment. She helps you stay grounded so
+        everything else can soar. 
     right:
-      business-link: http://saipua.com/
-      business-location: New York, NY
-      business-name: Saipua
-      name: Sarah Ryhanen
-      text: We’ve operated like a loosely organized club for so long; without systems,
-        without rules, without clear direction. Holly has a clear gift for
-        immediately pinpointing simple shifts to alleviate the chaos and hangups
-        that so many of us experience in small creative businesses. It’s like
-        magic. Thanks to her From Artisan to Entrepreneur class, Saipua now has
-        a very clearly defined vision with specific goals that keep the whole
-        team on that path. We have shifted our company culture from one of
-        martyrdom and exhaustion to one of enthusiasm and joy.
+      business-link: https://daly.nyc/
+      business-location: NY, NY
+      business-name: Daly
+      name: Alex Daly
+      text: "When peers ask me for business consultant recommendations, I tell them:
+        “Hands down, Holly. She changed my life.” And it’s true. Holly has been
+        my guardian angel in exploring, finding, and cementing the mission,
+        values, and culture at Daly in its many iterations. We have built
+        operational systems together, hiring plans, financial models, growth
+        paths, dream client lists, and so much more. Holly isn’t just a
+        consultant, she has been a partner and a friend, and with her guidance,
+        we have almost grown by 40% in size and revenue in just the last year. I
+        am grateful that I found her, and am lucky to be on this continued
+        career journey with her."
   row_seven:
     left:
       business-link: http://www.hellosuperstudios.com/
