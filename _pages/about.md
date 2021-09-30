@@ -48,26 +48,46 @@ testimonials:
         other local business with aligned interests. Working with Holly over the
         course of two years doubled our revenue and made me a much more
         effective manager. I can not recommend her services highly enough!
+      business-link: https://greenerynyc.com/
   row_four:
     left:
-      business-location: Brooklyn, NY
-      business-name: Knot and Bow
-      name: Erin
-      text: Like many small business owners, I have grown my business from the ground
-        up. I often inadvertently skipped steps along the way. This class was an
-        amazing opportunity that equipped me with knowledge and tools that
-        helped me make positive changes within my company. I have a fresh set of
-        eyes and a renewed sense of energy and excitement for the future.
+      business-location: Hudson, NY
+      business-name: MINNA
+      name: Sara Berks
+      text: Working with Holly these past four years has been a business and life
+        changing experience. She has a way of understanding the person behind
+        the 'business owner,' and guiding them to know and understand their own
+        strengths and embrace their weaknesses. We've worked on everything from
+        Business Planning to Infrastructure Development, Culture Change,
+        Marketing, Financial Planning, and Executive Coaching. She also joined
+        my team on our first team retreat, guiding us in a workshop for goal
+        setting for the next year, and a few years later leading us through a
+        communication workshop after we experienced a lot of change, growth, and
+        transition. Sometimes I joke that a guiding principle of how I lead is
+        'What Would Holly Do,' but it's honestly really true. Holly has taught
+        me to slow down and pause before jumping into problem solving, the
+        importance of structure, and that difficult conversations can only lead
+        to better.
+      business-link: https://www.minna-goods.com/
     right:
       business-location: Brooklyn, NY
-      business-name: One Girl Cookies
-      name: Dawn
-      text: My experience in this program was instrumental. It helped me intelligently
-        prepare my business to grow through forming a solid foundation. The
-        topics were especially relevant, and included professional soul
-        searching as well as more tactical, practical information. I highly
-        recommend it to any business owner looking to tighten systems and learn
-        how to become a better leader and overall happier business owner.
+      business-name: Craighill
+      name: Hunter Craighill & Zach Fried
+      text: "Working with Holly has been transformative for our business. With her
+        guidance and support, we've learned to keep perspective on the countless
+        small tasks calling out for our attention on a daily basis, and focus
+        ample time and energy on developing processes and systems that will
+        allow us to continue growing into a calm, stable, mature company. We've
+        worked with her on business planning, infrastructure development,
+        personnel systems, financial planning, and marketing planning. Her
+        approach is holistic, and grounded in a framework that always goes back
+        to our core values. It makes it easy to know when we're being true to
+        our vision, when we might have strayed, and how to course-correct. More
+        than anything, working with Holly has been empowering. She has set us up
+        to trust ourselves, know when to seek outside guidance, and continue
+        charting a self-directed path for healthy growth, both personally and
+        professionally.  "
+      business-link: https://craighill.co/
   row_one:
     left:
       business-link: https://www.dameproducts.com/
@@ -98,49 +118,53 @@ testimonials:
         career journey with her."
   row_seven:
     left:
-      business-link: http://www.hellosuperstudios.com/
-      business-location: Brooklyn, NY
-      business-name: Hello Super Studios
-      name: Megan Hill
-      text: In a time where my company was in transition, I reached out to Holly for
-        help in figuring out what I really wanted and needed to keep the
-        business going and in a new direction. She really took the time to
-        understand my business—doing industry research and offering useful
-        information that I hadn’t thought about already. One of the most
-        eye-opening pieces of info I gained was discovering what I truly wanted
-        out of my business. I had become so caught up in the day-to-day, I had
-        lost sight of WHY I was doing what I was doing. Holly gave me the tools
-        to help me define “why” I do what I do which ultimately helped me expand
-        my business. And in the short time we worked together, I was able to
-        rejuvenate my branding, logo, website and overall mindset of how to make
-        things work better for me. She truly went above and beyond to make it
-        happen!
+      business-link: https://woodenspoonherbs.com/
+      business-location: "Georgia "
+      business-name: Wooden Spoon Herbs
+      name: Lauren Haynes
+      text: Wooden Spoon Herbs would be so far from where we are now without Holly's
+        support. Through Infrastructure Support and Financial Planning (among
+        other services), our work together allowed us to grow 71% in the first
+        year working together. Her Executive Coaching ensures that I have the
+        skills I need moving forward to think outside the box and maintain
+        profitability. Holly is an invaluable advisor of the Wooden Spoon
+        ecosystem. She is the best in the business.
     right:
-      business-link: http://www.mooreparties.com/
-      business-location: Brooklyn, NY
-      business-name: Kevin's & Little Eva's
-      name: Caroline Moore
-      text: I think one of the most important lessons I took away from the Artisan to
-        Entrepreneur class is that our small business (like one’s art) is a
-        reflection of who we are and can’t be something we are not. The
-        ambivalence I’ve felt toward being a businesswoman, (no, it was utter
-        disdain) has dissipated and I just see it as a creative venture.
+      business-link: https://rebeccaatwood.com/
+      business-location: Charleston, South Carolina
+      business-name: "Rebecca Atwood Designs "
+      name: Rebecca Atwood
+      text: The Business Growth Program shifted everything. I was just going along bit
+        by bit before the class and wasn't looking at my business with a bigger
+        plan and goal. I started to have a process for vetting these bigger
+        ideas and figuring out how to make them attainable. It made me realize
+        that my job was to not just create the product but to create the
+        business, the company, the culture. I had to think bigger—and actually
+        more personally. Figuring out values that were important to me
+        personally, but relevant to what we were doing was a huge step. Getting
+        clear on that made it easier to think about what kind of company I
+        wanted to build, what experience I wanted for our customers, and also
+        for my employees."
   row_six:
     left:
-      business-link: https://www.provenancemeals.com/
+      business-link: https://www.daveinaccounting.com/
       business-location: Brooklyn, NY
-      business-name: Provenance Meals
-      name: Caroll Lee
-      text: As a small business owner, I often feel like my to-do list is endless and
-        that I’m struggling to keep up instead of forging ahead. Desperate for
-        help, I reached out to Holly Howard and am so pleased I did. Holly
-        helped me organize, prioritize and take action. I was so impressed with
-        her ability to quickly understand the issues I was facing, prioritize my
-        tasks, and help me execute. Not only has my customer base and sales
-        increased dramatically, but I feel in control of my business again.
-        Holly’s support is priceless and I know that I will turn to her again
-        and again as my business continues to grow and face new challenges.
-        Thank you Holly!
+      business-name: "Former: Lion in the Sun, Current Dave in Accounting "
+      name: Dave & Mel Morris
+      text: "We began working with Holly at a pivotal moment in our retail business
+        when we were unsure about important next steps - selling, closing,
+        expanding  or re-envisioning.  We needed to delineate and evaluate our
+        best options.  Holly provided the direction and a platform for
+        exploration that allowed us to discover what our strongest and most
+        effective paths ahead were, inspiring us to rethink our next careers
+        based on our skill sets despite the scary unknowns that were part of
+        that decision.  Ultimately, she helped guide us through the structure
+        and terms of the sale of our business that allowed us to pursue and
+        achieve quality of life goals. She gave us the tools to build new
+        business models and encouraged the questions that brought us the clarity
+        to make our most informed decisions.  Most of all she is the team member
+        we’d always wanted: smart, engaged, and a force for bringing out the
+        best in you by building on your strengths."
     right:
       business-link: http://the-meathook.com/
       business-location: Brooklyn, NY
