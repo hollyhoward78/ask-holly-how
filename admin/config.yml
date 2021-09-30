@@ -103,7 +103,7 @@ collections:
                     name: "left"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -112,7 +112,7 @@ collections:
                     name: "right"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -125,7 +125,7 @@ collections:
                     name: "left"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -134,7 +134,7 @@ collections:
                     name: "right"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -147,7 +147,7 @@ collections:
                     name: "left"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -156,7 +156,7 @@ collections:
                     name: "right"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -169,7 +169,7 @@ collections:
                     name: "left"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -178,7 +178,7 @@ collections:
                     name: "right"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -191,7 +191,7 @@ collections:
                     name: "left"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -200,7 +200,7 @@ collections:
                     name: "right"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -213,7 +213,7 @@ collections:
                     name: "left"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -222,7 +222,7 @@ collections:
                     name: "right"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -235,7 +235,7 @@ collections:
                     name: "left"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
@@ -244,33 +244,33 @@ collections:
                     name: "right"
                     widget: "object"
                     fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
+                      - {label: "Business Link", name: "business-link", widget: "string", required: false}
                       - {label: "Business Location", name: "business-location", widget: "string"}
                       - {label: "Business Name", name: "business-name", widget: "string"}
                       - {label: "Name", name: "name", widget: "string"}
                       - {label: "Text", name: "text", widget: "text"}
-              - label: "Row VIII"
-                name: "row_eight"
-                widget: "object"
-                fields:
-                  - label: "Left Testimonial"
-                    name: "left"
-                    widget: "object"
-                    fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
-                      - {label: "Business Location", name: "business-location", widget: "string"}
-                      - {label: "Business Name", name: "business-name", widget: "string"}
-                      - {label: "Name", name: "name", widget: "string"}
-                      - {label: "Text", name: "text", widget: "text"}
-                  - label: "Right Testimonial"
-                    name: "right"
-                    widget: "object"
-                    fields:
-                      - {label: "Business Link", name: "business-link", widget: "string"}
-                      - {label: "Business Location", name: "business-location", widget: "string"}
-                      - {label: "Business Name", name: "business-name", widget: "string"}
-                      - {label: "Name", name: "name", widget: "string"}
-                      - {label: "Text", name: "text", widget: "text"}
+              # - label: "Row VIII"
+              #   name: "row_eight"
+              #   widget: "object"
+              #   fields:
+              #     - label: "Left Testimonial"
+              #       name: "left"
+              #       widget: "object"
+              #       fields:
+              #         - {label: "Business Link", name: "business-link", widget: "string", required: false}
+              #         - {label: "Business Location", name: "business-location", widget: "string"}
+              #         - {label: "Business Name", name: "business-name", widget: "string"}
+              #         - {label: "Name", name: "name", widget: "string"}
+              #         - {label: "Text", name: "text", widget: "text"}
+              #     - label: "Right Testimonial"
+              #       name: "right"
+              #       widget: "object"
+              #       fields:
+              #         - {label: "Business Link", name: "business-link", widget: "string", required: false}
+              #         - {label: "Business Location", name: "business-location", widget: "string"}
+              #         - {label: "Business Name", name: "business-name", widget: "string"}
+              #         - {label: "Name", name: "name", widget: "string"}
+              #         - {label: "Text", name: "text", widget: "text"}
       - name: "Resources"
         label: "Resources Landing Page"
         file: "_pages/resources.md"

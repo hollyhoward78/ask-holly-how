@@ -24,19 +24,6 @@ about-image: /images/200209_Holly_Portrait3220b.jpg
 about-image-caption: Holly Howard &mdash; Principal
 about-email: hhoward@askhollyhow.com
 testimonials:
-  row_eight:
-    left:
-      business-link: ''
-      business-location: ''
-      business-name: ''
-      name: ''
-      text: ''
-    right:
-      business-link: ''
-      business-location: ''
-      business-name: ''
-      name: ''
-      text: ''
   row_five:
     left:
       business-location: 'Brooklyn, NY'
