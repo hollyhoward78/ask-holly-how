@@ -127,6 +127,15 @@
     },
     {
       "graduate_name": "Wms & Co"
+    },
+    {
+      "graduate_name": "Ben Wagner Design"
+    },
+    {
+      "graduate_name": "Patrick Townsend Design"
+    },
+    {
+      "graduate_name": "The Floral Society"
     }
   ],
   "grad_list_col2": [
@@ -253,6 +262,12 @@
     },
     {
       "graduate_name": "Me & General Design "
+    },
+    {
+      "graduate_name": "Peet Rivko"
+    },
+    {
+      "graduate_name": "epilogic skincare"
     }
   ],
   "grad_list_col3": [
@@ -378,6 +393,18 @@
     },
     {
       "graduate_name": "Guacamole Airplane"
+    },
+    {
+      "graduate_name": "Tantuvi"
+    },
+    {
+      "graduate_name": "Coil & Drift"
+    },
+    {
+      "graduate_name": "Collyer's Mansion "
+    },
+    {
+      "graduate_name": "Amigo Modern "
     }
   ]
 }
