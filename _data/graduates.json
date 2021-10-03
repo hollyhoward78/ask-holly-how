@@ -1,1 +1,380 @@
-{"grad_header":"Graduates","grad_list_col1":[{"graduate_name":"Nausette Press","graduate_link":""},{"graduate_name":"Brooklyn Jr.","graduate_link":""},{"graduate_name":"Stefania Giarbado Handmade","graduate_link":""},{"graduate_name":"DO ARCH NYC","graduate_link":""},{"graduate_name":"Girl in the Little Red Kitchen","graduate_link":""},{"graduate_name":"Home/Made","graduate_link":""},{"graduate_name":"Fort Defiance","graduate_link":""},{"graduate_name":"Dry Dock","graduate_link":""},{"graduate_name":"Fulla Shirts","graduate_link":""},{"graduate_name":"Sunny’s Bar","graduate_link":""},{"graduate_name":"Red Hook Winery","graduate_link":""},{"graduate_name":"Kevin’s &amp; Little Eva’s","graduate_link":""},{"graduate_name":"Rocky Sullivans","graduate_link":""},{"graduate_name":"The Good Fork","graduate_link":""},{"graduate_name":"Haywood Studios","graduate_link":""},{"graduate_name":"Red Hook Star Revue","graduate_link":""},{"graduate_name":"Realty Collective","graduate_link":""},{"graduate_name":"Saipua","graduate_link":""},{"graduate_name":"ShaRed Brooklyn","graduate_link":""},{"graduate_name":"Ladies & Gentlemen Studio"},{"graduate_name":"Breuckelen Distilling"},{"graduate_name":"Art Boards"},{"graduate_name":"La Newyorkina"},{"graduate_name":"Wallpaper Projects"},{"graduate_name":"MQuan Studio"},{"graduate_name":"Stories BK"},{"graduate_name":"Lucky Fish"},{"graduate_name":"DLV Designs"},{"graduate_name":"Sarkos"},{"graduate_name":"Dapper Tours"},{"graduate_name":"Douglass Fanning Design"}],"grad_list_col2":[{"graduate_name":"Camp Celo","graduate_link":""},{"graduate_name":"Jack from Brooklyn","graduate_link":""},{"graduate_name":"Grindhaus","graduate_link":""},{"graduate_name":"One Girl Cookies","graduate_link":""},{"graduate_name":"Rebecca Atwood Designs","graduate_link":""},{"graduate_name":"Knot &amp; Bow","graduate_link":""},{"graduate_name":"Annika Inez","graduate_link":""},{"graduate_name":"Blue Marble Ice Cream","graduate_link":""},{"graduate_name":"Colson’s Patisserie","graduate_link":""},{"graduate_name":"Rose Red &amp; Lavender","graduate_link":""},{"graduate_name":"Alexandra Ferguson","graduate_link":""},{"graduate_name":"Early Bird Foods","graduate_link":""},{"graduate_name":"Mr. Dog","graduate_link":""},{"graduate_name":"Liddabit Sweets","graduate_link":""},{"graduate_name":"The Wrap Life","graduate_link":""},{"graduate_name":"Calico Wallpaper","graduate_link":""},{"graduate_name":"Rogue Built","graduate_link":""},{"graduate_name":"Maria Castelli Handbags","graduate_link":""},{"graduate_name":"Hazel Village","graduate_link":""},{"graduate_name":"Egg Collective"},{"graduate_name":"Adams Book Company "},{"graduate_name":"Vonnegut / Kraft "},{"graduate_name":"Infinite Wave"},{"graduate_name":"Flickinger Glass"},{"graduate_name":"Supersmith "},{"graduate_name":"Dapper Tours"},{"graduate_name":"Loose Parts"},{"graduate_name":"Of Rare Origin"},{"graduate_name":"Amorosa5"},{"graduate_name":"White Arrow"}],"grad_list_col3":[{"graduate_name":"Granola Lab","graduate_link":""},{"graduate_name":"Home Studios","graduate_link":""},{"graduate_name":"Fort Standard","graduate_link":""},{"graduate_name":"Mr. Boddington’s","graduate_link":""},{"graduate_name":"Jacob Perkins Furniture","graduate_link":""},{"graduate_name":"Uptown Headwear","graduate_link":""},{"graduate_name":"Salty Road","graduate_link":""},{"graduate_name":"Pistache Catering","graduate_link":""},{"graduate_name":"Fredericks and Mae","graduate_link":""},{"graduate_name":"Token Furniture","graduate_link":""},{"graduate_name":"Chen Chen &amp; Kai Williams","graduate_link":""},{"graduate_name":"Kin &amp; Co.","graduate_link":""},{"graduate_name":"Brooklyn Owl","graduate_link":""},{"graduate_name":"City Saucery","graduate_link":""},{"graduate_name":"OW Brooklyn","graduate_link":""},{"graduate_name":"Saskia de Vries Designs","graduate_link":""},{"graduate_name":"Pat Kim Studio","graduate_link":""},{"graduate_name":"Kate Loudoun-Shand Designs","graduate_link":""},{"graduate_name":"Wallpaper Projects"},{"graduate_name":"Oeste"},{"graduate_name":"Lab 141"},{"graduate_name":"Volk Furniture"},{"graduate_name":"Creative Leaves"},{"graduate_name":"Rosie Li"},{"graduate_name":"Farrah Sit"},{"graduate_name":"A. Cheng"},{"graduate_name":"Art + Guile"},{"graduate_name":"Fair Play Projects"},{"graduate_name":"Rye Workshop"},{"graduate_name":"Avo Avo"},{"graduate_name":"Claudia Pearson Designs"},{"graduate_name":"Correll Correll"},{}]}
+{
+  "grad_header": "Graduates",
+  "grad_list_col1": [
+    {
+      "graduate_name": "Nausette Press",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Brooklyn Jr.",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Stefania Giarbado Handmade",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "DO ARCH NYC",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Girl in the Little Red Kitchen",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Home/Made",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Fort Defiance",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Dry Dock",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Fulla Shirts",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Sunny’s Bar",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Red Hook Winery",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Kevin’s &amp; Little Eva’s",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Rocky Sullivans",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "The Good Fork",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Haywood Studios",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Red Hook Star Revue",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Realty Collective",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Saipua",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "ShaRed Brooklyn",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Ladies & Gentlemen Studio"
+    },
+    {
+      "graduate_name": "Breuckelen Distilling"
+    },
+    {
+      "graduate_name": "Art Boards"
+    },
+    {
+      "graduate_name": "La Newyorkina"
+    },
+    {
+      "graduate_name": "Wallpaper Projects"
+    },
+    {
+      "graduate_name": "MQuan Studio"
+    },
+    {
+      "graduate_name": "Stories BK"
+    },
+    {
+      "graduate_name": "Lucky Fish"
+    },
+    {
+      "graduate_name": "DLV Designs"
+    },
+    {
+      "graduate_name": "Sarkos"
+    },
+    {
+      "graduate_name": "Dapper Tours"
+    },
+    {
+      "graduate_name": "Douglass Fanning Design"
+    },
+    {
+      "graduate_name": "BZippy"
+    },
+    {
+      "graduate_name": "Love Adorned"
+    },
+    {
+      "graduate_name": "Laun Los Angeles"
+    },
+    {
+      "graduate_name": "Chinchar Maloney "
+    }
+  ],
+  "grad_list_col2": [
+    {
+      "graduate_name": "Camp Celo",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Jack from Brooklyn",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Grindhaus",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "One Girl Cookies",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Rebecca Atwood Designs",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Knot &amp; Bow",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Annika Inez",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Blue Marble Ice Cream",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Colson’s Patisserie",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Rose Red &amp; Lavender",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Alexandra Ferguson",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Early Bird Foods",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Mr. Dog",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Liddabit Sweets",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "The Wrap Life",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Calico Wallpaper",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Rogue Built",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Maria Castelli Handbags",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Hazel Village",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Egg Collective"
+    },
+    {
+      "graduate_name": "Adams Book Company "
+    },
+    {
+      "graduate_name": "Vonnegut / Kraft "
+    },
+    {
+      "graduate_name": "Infinite Wave"
+    },
+    {
+      "graduate_name": "Flickinger Glass"
+    },
+    {
+      "graduate_name": "Supersmith "
+    },
+    {
+      "graduate_name": "Dapper Tours"
+    },
+    {
+      "graduate_name": "Loose Parts"
+    },
+    {
+      "graduate_name": "Of Rare Origin"
+    },
+    {
+      "graduate_name": "Amorosa5"
+    },
+    {
+      "graduate_name": "White Arrow"
+    },
+    {
+      "graduate_name": "Klum House"
+    },
+    {
+      "graduate_name": "Building Block"
+    },
+    {
+      "graduate_name": "Soul Street Yoga"
+    },
+    {
+      "graduate_name": "Hereafter "
+    },
+    {
+      "graduate_name": "Me & General Design "
+    }
+  ],
+  "grad_list_col3": [
+    {
+      "graduate_name": "Granola Lab",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Home Studios",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Fort Standard",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Mr. Boddington’s",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Jacob Perkins Furniture",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Uptown Headwear",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Salty Road",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Pistache Catering",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Fredericks and Mae",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Token Furniture",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Chen Chen &amp; Kai Williams",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Kin &amp; Co.",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Brooklyn Owl",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "City Saucery",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "OW Brooklyn",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Saskia de Vries Designs",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Pat Kim Studio",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Kate Loudoun-Shand Designs",
+      "graduate_link": ""
+    },
+    {
+      "graduate_name": "Wallpaper Projects"
+    },
+    {
+      "graduate_name": "Oeste"
+    },
+    {
+      "graduate_name": "Lab 141"
+    },
+    {
+      "graduate_name": "Volk Furniture"
+    },
+    {
+      "graduate_name": "Creative Leaves"
+    },
+    {
+      "graduate_name": "Rosie Li"
+    },
+    {
+      "graduate_name": "Farrah Sit"
+    },
+    {
+      "graduate_name": "A. Cheng"
+    },
+    {
+      "graduate_name": "Art + Guile"
+    },
+    {
+      "graduate_name": "Fair Play Projects"
+    },
+    {
+      "graduate_name": "Rye Workshop"
+    },
+    {
+      "graduate_name": "Avo Avo"
+    },
+    {
+      "graduate_name": "Claudia Pearson Designs"
+    },
+    {
+      "graduate_name": "Correll Correll"
+    },
+    {
+      "graduate_name": "Dittohouse"
+    },
+    {
+      "graduate_name": "Lauren's All Purpose"
+    },
+    {
+      "graduate_name": "Guacamole Airplane"
+    }
+  ]
+}
