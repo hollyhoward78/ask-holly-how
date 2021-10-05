@@ -5,6 +5,32 @@ date: 2021-05-31T22:35:39.433Z
 ---
 The weekly newsletter is the best way to understand my philosophy and approach to business growth. Catch up on the previous issues here:
 
+[My Year Without Social Media](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=6084433048)
+
+[The Simple Life](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=6306d8d93f)
+
+[A Well Written Job Description](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=4570b3b316) 
+
+[Growth is Existential First](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=3bdb1046dc)
+
+[Give Me Something to Believe In](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=b33b4d2366)
+
+[Use Your Illusion](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=a09ef358f8) 
+
+[The Business of Relating](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=6f9ccdfec5)
+
+[Kraft v. Cræft](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=7656fa5201)
+
+[Two Truths and a Lie.....](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=c7802496b9)
+
+[Gustav Holst & the Importance of Luck in Business](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=47efcd9c3f)
+
+[On Moss, Markets, and Management ](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=037ff238b5)
+
+[Breaking the Entreprenuerial Fever Part 1](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=153ec36632), [Part 2](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=57540ee0f4), [Part 3](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=4cf5a39384)
+
+[On Wintering and Taking Breaks](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=ac41941655) 
+
 [Michael Jordan, The Last Dance, and Team Building](https://mailchi.mp/74e355dd31cd/business-growth-program-early-bird-registration-open-4489437)
 
 [Let the Nutcracker Teach You about Seasonality & Cashflow ](https://mailchi.mp/71f8cd5477c9/business-growth-program-early-bird-registration-open-4487145)
