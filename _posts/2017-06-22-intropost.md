@@ -3,6 +3,8 @@ layout: single
 title: AHH Newsletter Archive
 date: 2021-05-31T22:35:39.433Z
 ---
+The weekly newsletter is the best way to understand my philosophy and approach to business growth. Catch up on the previous issues here:
+
 [Michael Jordan, The Last Dance, and Team Building](https://mailchi.mp/74e355dd31cd/business-growth-program-early-bird-registration-open-4489437)
 
 [Let the Nutcracker Teach You about Seasonality & Cashflow ](https://mailchi.mp/71f8cd5477c9/business-growth-program-early-bird-registration-open-4487145)
