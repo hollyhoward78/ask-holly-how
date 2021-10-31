@@ -5,6 +5,8 @@ date: 2021-05-31T22:35:39.433Z
 ---
 The weekly newsletter is the best way to understand my philosophy and approach to business growth. Catch up on the previous issues here:
 
+[Prenny's Preguntas and Your Vision](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=70eecbdc9a)
+
 [My Year Without Social Media](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=6084433048)
 
 [The Simple Life](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=6306d8d93f)
