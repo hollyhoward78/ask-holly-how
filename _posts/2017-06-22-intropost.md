@@ -5,6 +5,8 @@ date: 2021-05-31T22:35:39.433Z
 ---
 The weekly newsletter is the best way to understand my philosophy and approach to business growth. Catch up on the previous issues here:
 
+[Part 1/4: On Supply Chains, Spike Proteins, and Sacraments](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=4197669e71)
+
 [Changing Your Decision-Making Framework](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=e3f250def0)
 
 [Culture Is the Greatest Leverage Point for Making Change](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=4066594073)
