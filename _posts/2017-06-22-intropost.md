@@ -5,6 +5,8 @@ date: 2021-05-31T22:35:39.433Z
 ---
 The weekly newsletter is the best way to understand my philosophy and approach to business growth. Catch up on the previous issues here:
 
+[Part 4/4: On Supply Chains, Spike Proteins, and Sacraments](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=41dafb2346)
+
 [Part 3/4: On Supply Chains, Spike Proteins, and Sacraments](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=b26a8091a4)
 
 [Part 2/4: On Supply Chains, Spike Proteins, and Sacraments](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=cd157d4260)
