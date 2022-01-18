@@ -5,6 +5,8 @@ date: 2021-05-31T22:35:39.433Z
 ---
 The weekly newsletter is the best way to understand my philosophy and approach to business growth. Catch up on the previous issues here:
 
+[Beyond the Feed](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=1527c6ec58)
+
 [Out of Office and Beyond](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=faff9d5701)
 
 [Part 4/4: On Supply Chains, Spike Proteins, and Sacraments](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=41dafb2346)
