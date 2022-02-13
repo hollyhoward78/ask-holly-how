@@ -5,6 +5,8 @@ date: 2021-05-31T22:35:39.433Z
 ---
 The weekly newsletter is the best way to understand my philosophy and approach to business growth. Catch up on the previous issues here:
 
+[On Ice Fishing, Sensemaking and Human Resources](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=d86a257d59)
+
 [End of an Ecomm Era](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=670eabc7c8)
 
 [Beyond the Feed](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=1527c6ec58)
