@@ -13,7 +13,7 @@ introduction: >-
 
 
   Since launching Ask Holly How in 2012, Holly has worked with over 1000 businesses through her private consulting and business growth program. She has a rich background as a professional ballet dancer, music therapist, medical researcher, bassoonist, VP of Operations and Finance, and former Visiting Professor of Business at Pratt Institute. She holds a degree in Music Therapy from Berklee College of Music, A Certificate in Pre-Medical Sciences from Columbia University, and is currently pursuing a Graduate Certificate in Religions of the World at the Harvard Extension. She is at work on her first book. Each of these pursuits has allowed her to shape her approach and philosophy to helping entrepreneurs grow their businesses without sacrificing their souls.
-about-image: /images/200209_Holly_Portrait3220b.jpg
+about-image: /images/220213_holly_portrait5614_a.jpg
 about-image-caption: Holly Howard &mdash; Principal
 about-email: hhoward@askhollyhow.com
 testimonials:
