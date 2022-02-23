@@ -1,8 +1,8 @@
 ---
 layout: about
-lead-introduction: Ask Holly How is a business consultancy founded on the
-  principle that successful entrepreneurship resides at the intersection of
-  self-evolution, business growth, and the creative pursuit.
+lead-introduction: Ask Holly How is a culture-first business consultancy founded
+  on the principle that successful entrepreneurship resides at the intersection
+  of self-evolution, business growth, and the creative pursuit.
 introduction: >-
   Holly works with Creative Entrepreneurs who are building locally and growing
   globally. They are risk takers by nature, with an expansive mindset for
