@@ -5,6 +5,8 @@ date: 2021-05-31T22:35:39.433Z
 ---
 The weekly newsletter is the best way to understand my philosophy and approach to business growth. Catch up on the previous issues here:
 
+[Depersonalizing The Customer](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=f7914d41f8)
+
 [Participate Joyfully in the Sorrows of the World](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=a2f4073a46)
 
 [Corita Kent, Gang Starr, and Work](https://us9.campaign-archive.com/?u=5d546171d6acc818005d962e1&id=b06cf429b4)
